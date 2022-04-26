@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Avg_Total_Formula_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Total_Deposits_40__c +  Total_Deposits_41__c  +  Total_Deposits_42__c  + Total_Deposits_43__c + Total_Deposits_44__c + Total_Deposits_45__c + Total_Deposits_46__c + Total_Deposits_47__c  + 
+Total_Deposits_48__c+Total_Deposits_49__c + Total_Deposits_50__c +Total_Deposits_51__c ) /
+
+if(
+if(Total_Deposits_40__c =0,0,1)+if(Total_Deposits_41__c =0,0,1)+if(Total_Deposits_42__c =0,0,1)+
+if(Total_Deposits_43__c =0,0,1)+if(Total_Deposits_44__c =0,0,1)+if(Total_Deposits_45__c =0,0,1)+
+if(Total_Deposits_46__c =0,0,1)+if(Total_Deposits_47__c =0,0,1)+if(Total_Deposits_48__c =0,0,1)+
+if(Total_Deposits_49__c =0,0,1)+if(Total_Deposits_50__c =0,0,1)+if(Total_Deposits_51__c =0,0,1)=0,1,if
+(Total_Deposits_40__c =0,0,1)+if(Total_Deposits_41__c =0,0,1)+if(Total_Deposits_42__c =0,0,1)+
+if(Total_Deposits_43__c =0,0,1)+if(Total_Deposits_44__c =0,0,1)+if(Total_Deposits_45__c =0,0,1)+
+if(Total_Deposits_46__c =0,0,1)+if(Total_Deposits_47__c =0,0,1)+if(Total_Deposits_48__c =0,0,1)+
+if(Total_Deposits_49__c =0,0,1)+if(Total_Deposits_50__c =0,0,1)+if(Total_Deposits_51__c =0,0,1) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Avg Total Formula</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

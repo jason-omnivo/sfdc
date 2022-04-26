@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>The Custom setting will contain the values for Type picklist of Opportunity and Api Name of Campaign field that maintains count related to that Picklist value of Opportunity.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <label>OpportunityTypes</label>
+    <visibility>Public</visibility>
+</CustomObject>

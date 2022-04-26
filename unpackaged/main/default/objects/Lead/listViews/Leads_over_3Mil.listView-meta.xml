@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_over_3Mil</fullName>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Annual_Gross_Sales__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Date_Lead_Received__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>equals</operation>
+        <value>123019 UCCs,111219UCCs,101619 UCCs,091019 UCCs</value>
+    </filters>
+    <filters>
+        <field>Annual_Gross_Sales__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>3000000</value>
+    </filters>
+    <label>Leads over 3Mil</label>
+    <sharedTo>
+        <group>Joseph_Green</group>
+    </sharedTo>
+</ListView>

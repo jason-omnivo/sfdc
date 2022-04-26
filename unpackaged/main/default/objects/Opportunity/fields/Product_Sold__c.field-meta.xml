@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Sold__c</fullName>
+    <description>MCA = Merchant Cash Advance (flexible payments) 
+CCP = Credit Card Processing 
+ACH = Automated Clearing House (fixed payments)</description>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Merchant Cash Advance</fullName>
+                <default>false</default>
+                <label>Merchant Cash Advance</label>
+            </value>
+            <value>
+                <fullName>Automated Clearing House (ACH)</fullName>
+                <default>false</default>
+                <label>Automated Clearing House (ACH)</label>
+            </value>
+            <value>
+                <fullName>Merchant Account</fullName>
+                <default>false</default>
+                <label>Merchant Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

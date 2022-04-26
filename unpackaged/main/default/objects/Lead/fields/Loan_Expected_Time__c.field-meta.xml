@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loan_Expected_Time__c</fullName>
+    <externalId>false</externalId>
+    <label>Loan Expected Time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asap</fullName>
+                <default>false</default>
+                <label>Asap</label>
+            </value>
+            <value>
+                <fullName>Within A Week</fullName>
+                <default>false</default>
+                <label>Within A Week</label>
+            </value>
+            <value>
+                <fullName>As Soon As Possible</fullName>
+                <default>false</default>
+                <label>As Soon As Possible</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

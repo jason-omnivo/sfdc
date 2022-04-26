@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsDlttOrAg_Admin__c</fullName>
+    <externalId>false</externalId>
+    <formula>Campaign.Id == '7011M000001BdQw' || Campaign.Id == '7011M000001BbIC' ||
+ Secondary_Campaign_Source__r.Id == '7011M000001BdQw' || Secondary_Campaign_Source__r.Id == '7011M000001BbIC'</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsDlttOrAg(Admin)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

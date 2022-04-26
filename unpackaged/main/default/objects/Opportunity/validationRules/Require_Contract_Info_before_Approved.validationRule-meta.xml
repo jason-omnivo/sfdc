@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Contract_Info_before_Approved</fullName>
+    <active>true</active>
+    <description>This rule requires that contract information be entered</description>
+    <errorConditionFormula>AND(
+ OR (
+ ISPICKVAL( Loan_Type__c , "Fixed Daily [ACH Loan]"), 
+ ISPICKVAL( Loan_Type__c , "Holdback [MCA]"),
+ ISPICKVAL( Loan_Type__c , "Incremental"),
+ ISPICKVAL( Loan_Type__c , "Other")),
+ 
+ OR( 
+  ISBLANK(Loan_Amount__c), 
+  ISBLANK(Factor_Rate__c)
+  
+)
+ )</errorConditionFormula>
+    <errorDisplayField>Loan_Amount__c</errorDisplayField>
+    <errorMessage>The following fields are required: Loan Amount and Factor Rate</errorMessage>
+</ValidationRule>

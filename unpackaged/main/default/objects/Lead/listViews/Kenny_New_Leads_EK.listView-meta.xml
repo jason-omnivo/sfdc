@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kenny_New_Leads_EK</fullName>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Cell_Phone__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.ANNUAL_REVENUE</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>kshef</value>
+    </filters>
+    <filters>
+        <field>Lead_Sub_Source__c</field>
+        <operation>equals</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <label>Kenny New Leads - EK</label>
+    <sharedTo>
+        <group>Elazar_Krieger</group>
+        <group>Kenny_Sheff</group>
+        <group>Kenny_Sheff2</group>
+        <group>Ryan_O_Sullivan</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Act_3_Total_Daily_Balance__c</fullName>
+    <externalId>false</externalId>
+    <label>Act. 3 Total Daily Balance</label>
+    <summarizedField>Bank_Stataments__c.Average_Daily_Balance__c</summarizedField>
+    <summaryFilterItems>
+        <field>Bank_Stataments__c.Account__c</field>
+        <operation>equals</operation>
+        <value>Account 3</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Bank_Stataments__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

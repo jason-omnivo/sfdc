@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up_Apps_Sent</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Call_Count__c</columns>
+    <columns>Status_Open_Awaiting_App_Date_Time__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.LAST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Business Owner</value>
+    </filters>
+    <filters>
+        <field>LEAD.DO_NOT_CALL</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Is_Closed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open - Awaiting App (App Sent)</value>
+    </filters>
+    <label>Follow Up - Apps Sent</label>
+    <sharedTo>
+        <group>Chris_Hendley</group>
+        <group>Elazar_Krieger</group>
+        <group>Gary_B</group>
+        <group>James_Schmoyer</group>
+        <group>Jasmine_Waltz</group>
+        <group>Kelly_Williams</group>
+        <group>Kimberly_mecklenburg</group>
+        <group>Neil_Byalick</group>
+        <group>Roger_berazate</group>
+        <group>Shenae_Rivers</group>
+    </sharedTo>
+</ListView>

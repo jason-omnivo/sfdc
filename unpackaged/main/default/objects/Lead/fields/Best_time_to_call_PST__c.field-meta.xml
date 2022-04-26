@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Best_time_to_call_PST__c</fullName>
+    <description>Best Time to call in PST.</description>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(Time_Zone__c) == 'Pacific Time', 
+	TEXT(Best_Time_to_Call__c) , 
+	IF(TEXT(Time_Zone__c) == 'Eastern Time', 
+		IF(TEXT(Best_Time_to_Call__c) == 'Before 9am', 
+			'Before 6am', 
+			IF(TEXT(Best_Time_to_Call__c) == '9am to 11am', 
+				'6am to 8am',
+				IF(TEXT(Best_Time_to_Call__c) == '11am to 2:30pm',
+					'8am to 11:30 am',
+					IF(TEXT(Best_Time_to_Call__c) == '2:30pm to 5pm',
+						'11:30am to 2pm',
+						IF(TEXT(Best_Time_to_Call__c) == 'After 5pm',
+							'After 2pm',
+							TEXT(Best_Time_to_Call__c)
+						)
+					)
+				)
+			)
+		),
+		IF(TEXT(Time_Zone__c) == 'Central Time', 
+			IF(TEXT(Best_Time_to_Call__c) == 'Before 9am', 
+				'Before 7am', 
+				IF(TEXT(Best_Time_to_Call__c) == '9am to 11am', 
+					'7am to 9am',
+					IF(TEXT(Best_Time_to_Call__c) == '11am to 2:30pm',
+						'9am to 12:30 pm',
+						IF(TEXT(Best_Time_to_Call__c) == '2:30pm to 5pm',
+							'12:30pm to 3pm',
+							IF(TEXT(Best_Time_to_Call__c) == 'After 5pm',
+								'After 3pm',
+								TEXT(Best_Time_to_Call__c)
+							)
+						)
+					)
+				)
+			),
+			IF(TEXT(Time_Zone__c) == 'Mountain Time', 
+				IF(TEXT(Best_Time_to_Call__c) == 'Before 9am', 
+					'Before 8am', 
+					IF(TEXT(Best_Time_to_Call__c) == '9am to 11am', 
+						'8am to 10am',
+						IF(TEXT(Best_Time_to_Call__c) == '11am to 2:30pm',
+							'10am to 1:30 pm',
+							IF(TEXT(Best_Time_to_Call__c) == '2:30pm to 5pm',
+								'1:30pm to 4pm',
+								IF(TEXT(Best_Time_to_Call__c) == 'After 5pm',
+									'After 4pm',
+									TEXT(Best_Time_to_Call__c)
+								)
+							)
+						)
+					)
+				),
+				IF(TEXT(Time_Zone__c)== 'Hawaii Time',
+					IF(TEXT(Best_Time_to_Call__c) == 'Before 9am', 
+						'Before 12pm', 
+						IF(TEXT(Best_Time_to_Call__c) == '9am to 11am', 
+							'12pm to 2pm',
+							IF(TEXT(Best_Time_to_Call__c) == '11am to 2:30pm',
+								'2pm to 5:30 pm',
+								IF(TEXT(Best_Time_to_Call__c) == '2:30pm to 5pm',
+									'5:30pm to 8pm',
+									IF(TEXT(Best_Time_to_Call__c) == 'After 5pm',
+										'After 8pm',
+										TEXT(Best_Time_to_Call__c)
+									)
+								)
+							)
+						)
+					),
+					TEXT(Best_Time_to_Call__c)
+				)
+			)
+		)
+	)
+)</formula>
+    <label>Best time to call PST</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

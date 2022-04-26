@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cashio_COJ_Internal_via_Email</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Cashio COJ</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://composer.congamerge.com
+?sessionId={!API.Session_ID}
+&amp;serverUrl={!API.Partner_Server_URL_80}
+&amp;id={!Opportunity.Id}
+&amp;SelectTemplates=0
+&amp;EmailTemplateId=00X1M000002MJLk
+&amp;&amp;EmailRelatedToId={!Opportunity.Id}
+&amp;LG0=0
+&amp;LG1=Cashio COJ Generated 
+&amp;LG3=1
+&amp;LG4=1
+&amp;TemplateId={!IF(Account.Full_Name_2__c &lt;&gt; null,"a0b1M00000BHGYm","a0b1M00000BHGSP")}
+&amp;DefaultPDF=1
+&amp;OFN=Cashio+K+COJ+-+{!Opportunity.Account}
+&amp;EmailBCC={!Opportunity.OwnerEmail}
+&amp;MFTSId0={!Opportunity.Id}
+&amp;BML=We're+assembling+a+Cashio+COJ
+&amp;DS7=2
+&amp;EmailToId={!Opportunity.ISO_Contact_Email__c}
+&amp;FlattenPDFForms=1</url>
+</WebLink>

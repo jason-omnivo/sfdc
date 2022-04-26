@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AIS_Active_All</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Max_Approval__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Annual_Revenue_Trend__c</columns>
+    <columns>Industry__c</columns>
+    <columns>Days_in_the_pipeline__c</columns>
+    <columns>Primary_Campaign_Custom__c</columns>
+    <columns>Opener_Name__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Date_Opportunity_Reignited__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>gabeg,ggood,jonas,kim,rcowan,Cashio,zgoldman,process,mikem,janat,JGreen,Funding</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Application In,Closed Lost,Declined,Funded,Default,Fraud,Sold Business</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>,Out of Business,Renewal Eligible,Covid 19 - Declined</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>mpaul,ocean,rritz,sgold,jhoff,ZackVail</value>
+    </filters>
+    <filters>
+        <field>Create_Reignited_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:100000</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Underwriting - Declined</value>
+    </filters>
+    <label>AIS - Active</label>
+    <sharedTo>
+        <group>AIS_Ventures</group>
+        <group>Aiden_Ivory</group>
+        <group>Elazar_Krieger</group>
+        <group>Joseph_Green</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>aj</fullName>
+    <columns>NAME</columns>
+    <columns>Active__c</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Contact_Phone__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Additional_Email_1__c</columns>
+    <columns>Additional_Email_2__c</columns>
+    <columns>Time_in_business__c</columns>
+    <columns>Credit_Score__c</columns>
+    <columns>Ownership_Percentage_Requirment__c</columns>
+    <columns>Restricted_States__c</columns>
+    <columns>Restricted_Industries__c</columns>
+    <columns>Commision__c</columns>
+    <columns>Commission_Type__c</columns>
+    <columns>Docs__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All with Details</label>
+</ListView>

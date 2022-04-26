@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holdback_MCA_loan</fullName>
+    <active>true</active>
+    <description>This will make sure Number of Payments is blank when Loan Type is MCA</description>
+    <errorConditionFormula>AND (
+   
+ ISPICKVAL( Loan_Type__c , "Holdback [MCA]"),
+
+  OR(
+   NOT( ISBLANK( Number_of_Payments__c )),
+   NOT( ISBLANK( Specified_Percentage__c)),
+   NOT ISPICKVAL( Payment_Frequency__c , ""),
+   NOT (ISBLANK( ACH_Program_Fee__c ))
+)
+)</errorConditionFormula>
+    <errorDisplayField>Number_of_Payments__c</errorDisplayField>
+    <errorMessage>When Loan Type is Holdback [MCA], Number of Payments, Payment Frequency, Specified Percentage and ACH Program Fee must be blank.</errorMessage>
+</ValidationRule>

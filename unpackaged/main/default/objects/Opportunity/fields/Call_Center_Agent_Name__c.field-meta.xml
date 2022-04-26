@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Center_Agent_Name__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is mapped to the Call Center Agent Name on the Lead record and gets populated once the lead is converted</description>
+    <externalId>false</externalId>
+    <label>Call Center Agent Name</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Call Center Agent Name)</relationshipLabel>
+    <relationshipName>Opportunities_Agent</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

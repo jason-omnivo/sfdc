@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FBF_Contract</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>225</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>FBF Contract - MSCG</masterLabel>
+    <openType>newWindow</openType>
+    <position>topLeft</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://composer.congamerge.com
+?sessionId={!API.Session_ID}
+&amp;serverUrl={!API.Partner_Server_URL_80}
+&amp;id={!Opportunity.Id}
+&amp;SelectTemplates=0
+&amp;EmailTemplateId=00XG0000001Qqfl
+&amp;&amp;EmailRelatedToId={!Opportunity.Id}
+&amp;LG0=0
+&amp;LG1=EMC Financial Contracts Generated 
+&amp;LG3=1
+&amp;LG4=1
+&amp;TemplateId=a0bG0000008cEt1,a0bG0000008cEtB,a0bG0000009An2j
+&amp;MTOFN=EMC Financial Contracts
+&amp;DefaultPDF=1
+&amp;EmailBCC={!Opportunity.OwnerEmail}
+&amp;MFTSId0={!Opportunity.Id}
+&amp;MFTS0=StageName
+&amp;MFTSValue0=Agreements Sent
+&amp;BML=We're assembling the Fast Business Funding Contract 
+&amp;DS7=2
+&amp;EmailToId={!Opportunity.Primary_ContactId__c}
+&amp;FlattenPDFForms=1</url>
+    <width>700</width>
+</WebLink>

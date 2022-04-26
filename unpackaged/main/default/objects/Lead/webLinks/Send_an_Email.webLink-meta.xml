@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_an_Email</fullName>
+    <availability>online</availability>
+    <description>The Button contains standard Send an Email functionality.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send an Email</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.open('/_ui/core/email/author/EmailAuthor?p2_lkid={!Lead.Id}&amp;rtype=00Q&amp;retURL=%2F{!Lead.Id}&amp;template_id=00XG0000001QuWO','_self')</url>
+</WebLink>

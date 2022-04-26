@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repayment_Method__c</fullName>
+    <description>This Field takes the Loan Type field and translates it simpler language for the Contract Generation Cover Sheet using Conga</description>
+    <externalId>false</externalId>
+    <formula>Case( Loan_Type__c,
+"Fixed Daily [ACH Loan]","ACH Payments",
+"Holdback [MCA]","Percentage Credit Card Sales",
+
+"","",
+""
+)</formula>
+    <label>Repayment Method</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

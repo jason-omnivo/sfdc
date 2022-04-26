@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direct_App</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Max_Approval__c</columns>
+    <columns>Days_in_the_pipeline__c</columns>
+    <columns>Time_From_Approved_Until_Today__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Primary_Campaign_Custom__c</columns>
+    <columns>Act_1_Annual_Revenue_Trend__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Renewal Eligible,Default,Closed Won,Sold Business</value>
+    </filters>
+    <filters>
+        <field>Test__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Pilot - ISR</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Hagai_Ovadia</group>
+        <group>Nelly</group>
+    </sharedTo>
+</ListView>

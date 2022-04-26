@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_Offer__c</fullName>
+    <description>This field will display the potential preapproval amount based on a predetermined calculation such as (15% of annual sales).</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Annual_Gross_Sales__c) , 0, ((Annual_Gross_Sales__c  * 15 )/ 100))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This calculates potential approval amount based on a 15% of annual sales.</inlineHelpText>
+    <label>Potential Offer</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

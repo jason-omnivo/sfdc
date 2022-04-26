@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attempts__c</fullName>
+    <externalId>false</externalId>
+    <label>Attempts</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Try 1</fullName>
+                <default>false</default>
+                <label>Try 1</label>
+            </value>
+            <value>
+                <fullName>Try 2</fullName>
+                <default>false</default>
+                <label>Try 2</label>
+            </value>
+            <value>
+                <fullName>Try 3</fullName>
+                <default>false</default>
+                <label>Try 3</label>
+            </value>
+            <value>
+                <fullName>Try 4</fullName>
+                <default>false</default>
+                <label>Try 4</label>
+            </value>
+            <value>
+                <fullName>Try 5</fullName>
+                <default>false</default>
+                <label>Try 5</label>
+            </value>
+            <value>
+                <fullName>Try 6</fullName>
+                <default>false</default>
+                <label>Try 6</label>
+            </value>
+            <value>
+                <fullName>Try 7</fullName>
+                <default>false</default>
+                <label>Try 7</label>
+            </value>
+            <value>
+                <fullName>Try 8</fullName>
+                <default>false</default>
+                <label>Try 8</label>
+            </value>
+            <value>
+                <fullName>Try 9</fullName>
+                <default>false</default>
+                <label>Try 9</label>
+            </value>
+            <value>
+                <fullName>Try 10</fullName>
+                <default>false</default>
+                <label>Try 10</label>
+            </value>
+            <value>
+                <fullName>Override – Attempting</fullName>
+                <default>false</default>
+                <label>Override – Attempting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

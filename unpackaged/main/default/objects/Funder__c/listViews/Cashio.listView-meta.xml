@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cashio</fullName>
+    <columns>NAME</columns>
+    <columns>Logo__c</columns>
+    <columns>Logo_URL__c</columns>
+    <columns>Active__c</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Contact_Phone__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Cashio_ID__c</columns>
+    <columns>Funder_Login_Notes__c</columns>
+    <columns>Funder_Login_URL__c</columns>
+    <columns>Funder_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>cashio</value>
+    </filters>
+    <label>Cashio</label>
+</ListView>

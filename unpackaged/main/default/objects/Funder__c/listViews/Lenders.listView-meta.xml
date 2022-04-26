@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lenders</fullName>
+    <columns>NAME</columns>
+    <columns>Contact_Phone__c</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Additional_Email_1__c</columns>
+    <columns>Additional_Email_2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Lenders</label>
+    <sharedTo>
+        <group>Cristina_Guerrero</group>
+    </sharedTo>
+</ListView>

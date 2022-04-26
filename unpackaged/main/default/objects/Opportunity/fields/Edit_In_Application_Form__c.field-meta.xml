@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edit_In_Application_Form__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( !ISBLANK(Converted_Lead_Record__c ) ,
+"https://emcfinancial.com/apply-now.php?lid=" +  Converted_Lead_Record__c ,
+'')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Edit In Application Form</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

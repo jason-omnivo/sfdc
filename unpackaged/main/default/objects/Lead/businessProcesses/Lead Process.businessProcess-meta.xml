@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Already Applied</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Call Back Later</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Bad Lead</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Can%27t Reach</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Not Interested Yet</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Unqualified</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Unqualified Low Income</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Unqualified No Business</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Converted - Signed App</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Converted - Verbal App</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>DO NOT CALL</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Open - Appointment Set</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Open - Attempting Contact</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Open - Awaiting App %28App Sent%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Revived Opp</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

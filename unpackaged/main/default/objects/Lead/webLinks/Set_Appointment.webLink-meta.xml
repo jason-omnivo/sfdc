@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Set_Appointment</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Set Appointment</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.open('/_ui/core/email/author/EmailAuthor?p2_lkid={!$User.Email}&amp;rtype=00Q&amp;retURL=%2F{!Lead.Id}&amp;template_id=00X1M000002OiSA','_self')</url>
+</WebLink>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Funded_On_Date_before</fullName>
+    <active>true</active>
+    <description>Requires Funded On Date before changing Stage to 'Funded'</description>
+    <errorConditionFormula>AND (
+
+ISPICKVAL(StageName, "Funded"),
+ OR( 
+ ISBLANK (Funded_On__c),
+ ISBLANK(  Funded_Amount__c  ) 
+))</errorConditionFormula>
+    <errorMessage>Before moving to the Funded Stage, you must add a Funded On Date and a Funded Amount</errorMessage>
+</ValidationRule>

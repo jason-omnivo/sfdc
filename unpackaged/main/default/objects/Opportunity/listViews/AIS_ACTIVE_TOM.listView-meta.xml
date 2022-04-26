@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AIS_ACTIVE_TOM</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Max_Approval__c</columns>
+    <columns>Act_1_Annual_Revenue_Trend__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Days_in_the_pipeline__c</columns>
+    <columns>Email_Opp__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>tzoha</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost,Declined,Funded,Default,Fraud,Application In</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Out of Business,Renewal Eligible,Covid 19 - Declined</value>
+    </filters>
+    <label>AIS-ACTIVE-TOM</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Cristina_Guerrero</group>
+        <group>Joseph_Green</group>
+        <group>Lu_Admin</group>
+        <group>tom</group>
+    </sharedTo>
+</ListView>

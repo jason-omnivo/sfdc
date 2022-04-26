@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Collection</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Email Collection</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var win = window.open("https://na77.salesforce.com/apex/Email_Collection?scontrolCaching=1&amp;id={!Lead.Id}", "MyWinName", "height=260,width=500"); 
+// set the focus new window
+win.focus(); 
+// assign the methods focusPopup to the window events that may cause it to loose focus
+window.onmousedown = focusPopup; 
+window.onkeyup = focusPopup; 
+window.onmousemove = focusPopup; 
+ 
+function focusPopup() { 
+  if (win &amp;&amp; !win.closed) { 
+    win.focus(); 
+  } 
+}
+
+var timer = setInterval(function() {
+  if(win.closed) { 
+    clearInterval(timer); 
+    window.location.href = window.location.href; 
+  } 
+}, 1000);</url>
+</WebLink>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Lead_Reignited__c</fullName>
+    <description>This is a date used for old leads that we started to work with again after a whie</description>
+    <externalId>false</externalId>
+    <label>Date Lead Reignited</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

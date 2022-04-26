@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Since_Last_Activity__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISNULL(Bus_Days_Last_Activity_To_Converted__c),
+    IF(
+    ISNULL(Bus_Days_Last_Activity_Until_Closed__c),
+      IF(ISNULL(LastActivityDate),
+      NULL,
+      NOW() -  
+      DATETIMEVALUE(
+      TEXT(YEAR(LastActivityDate))&amp;"-"&amp;
+      TEXT(MONTH(LastActivityDate))&amp;"-"&amp;
+      TEXT(DAY(LastActivityDate)) &amp;" "&amp; 
+      "00:00:00"
+      )) 
+    ,
+    Bus_Days_Last_Activity_Until_Closed__c
+    ),
+  Bus_Days_Last_Activity_To_Converted__c
+)</formula>
+    <label>Days Since Last Activity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

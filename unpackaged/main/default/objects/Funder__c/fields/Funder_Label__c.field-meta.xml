@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funder_Label__c</fullName>
+    <externalId>false</externalId>
+    <label>Funder Label</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Knight Capital Funding</fullName>
+                <default>false</default>
+                <label>Knight Capital Funding</label>
+            </value>
+            <value>
+                <fullName>JP Fox</fullName>
+                <default>false</default>
+                <label>JP Fox</label>
+            </value>
+            <value>
+                <fullName>Yellowstone</fullName>
+                <default>false</default>
+                <label>Yellowstone</label>
+            </value>
+            <value>
+                <fullName>Snap Advances</fullName>
+                <default>false</default>
+                <label>Snap Advances</label>
+            </value>
+            <value>
+                <fullName>EBF North</fullName>
+                <default>false</default>
+                <label>EBF North</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

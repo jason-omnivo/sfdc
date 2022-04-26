@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding__c</fullName>
+    <description>Describes the type of product we sold the client</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Loan, Line of Credit etc.</inlineHelpText>
+    <label>Funding Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Line of Credit</fullName>
+                <default>false</default>
+                <label>Business Line of Credit</label>
+            </value>
+            <value>
+                <fullName>Long Term Funding Loan</fullName>
+                <default>false</default>
+                <label>Long Term Funding Loan</label>
+            </value>
+            <value>
+                <fullName>Short Term Funding Loan</fullName>
+                <default>false</default>
+                <label>Short Term Funding Loan</label>
+            </value>
+            <value>
+                <fullName>Commercial Real Estate Loan</fullName>
+                <default>false</default>
+                <label>Commercial Real Estate Loan</label>
+            </value>
+            <value>
+                <fullName>Equipment Lease</fullName>
+                <default>false</default>
+                <label>Equipment Lease</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

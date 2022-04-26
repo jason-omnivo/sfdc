@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_not_change_the_stage_of_Funded_Opp</fullName>
+    <active>true</active>
+    <errorConditionFormula>TEXT( PRIORVALUE( StageName ) ) == 'Funded' &amp;&amp;
+ISCHANGED( StageName ) &amp;&amp;
+$User.Alias != 'JGreen' &amp;&amp;
+$User.Alias != 'aiden' &amp;&amp;
+$User.Alias != 'Funding' &amp;&amp;
+$User.Alias != 'blauf'</errorConditionFormula>
+    <errorMessage>You can't change the stage of Funded Opportunity.</errorMessage>
+</ValidationRule>

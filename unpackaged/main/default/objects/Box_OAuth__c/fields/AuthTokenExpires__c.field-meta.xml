@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AuthTokenExpires__c</fullName>
+    <description>Date/Time the auth token expires. If expired and the refresh token is still valid, then a refresh will be needed to get a new auth token.</description>
+    <externalId>false</externalId>
+    <label>Auth Token Expires</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

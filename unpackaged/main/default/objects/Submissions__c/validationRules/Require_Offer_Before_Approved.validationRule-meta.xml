@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Offer_Before_Approved</fullName>
+    <active>true</active>
+    <description>This rule won't allow the user to update the Bank Status to 'Approved' until at least one Offer record exists in opportunity</description>
+    <errorConditionFormula>AND(
+ Opportunity__r.Offers__c  &lt; 1,
+  ISPICKVAL(Bank_Status__c , "Approved") 
+)</errorConditionFormula>
+    <errorMessage>Before updating to Approved, there must be at least one Offer created in the opportunity</errorMessage>
+</ValidationRule>

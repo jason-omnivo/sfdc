@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existing_Positions__c</fullName>
+    <description>Input here any existing loans/mca/advances/positions the merchant is currently paying</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Input here any existing loans/mca/advances/positions the merchant is currently paying</inlineHelpText>
+    <label>Existing Positions</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

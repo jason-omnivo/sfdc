@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Stage__c</fullName>
+    <description>Sub Stage for Approvals</description>
+    <externalId>false</externalId>
+    <label>Approval Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approved - Considering</fullName>
+                <default>false</default>
+                <label>Approved - Considering</label>
+            </value>
+            <value>
+                <fullName>Approved - Pending Stack</fullName>
+                <default>false</default>
+                <label>Approved - Pending Stack</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

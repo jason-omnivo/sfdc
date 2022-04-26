@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Closed__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL( Status , "Closed - Can't Reach") ||
+ ISPICKVAL( Status , 'Closed - Not Interested Yet') ||
+ ISPICKVAL( Status , 'Closed - Unqualified') ||
+ ISPICKVAL( Status , 'Closed - Bad Lead')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Closed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

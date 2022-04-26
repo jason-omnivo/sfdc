@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Data_For_Submission</fullName>
+    <active>true</active>
+    <description>Require Data For Submission</description>
+    <errorConditionFormula>AND(
+ OR(
+   ISPICKVAL( StageName, "Ready to Submit")
+),
+ OR(
+ ISPICKVAL(Account.Industry__c, ""),
+ ISBLANK(Account.Date_Business_Established__c),
+ ISBLANK( Account.Percent_of_Ownership_1__c ),
+ ISBLANK( Account.Partner_1_Credit_Score__c ),
+ ISBLANK( TEXT( Account.Leased_Owned_Picklist__c ) ),
+ ISBLANK( Account.Full_Name_1__c ),
+ ISBLANK( Account.Last_Name_1__c ),
+ ISBLANK( Account.Residence_Address_1__c ),
+ ISBLANK( Account.City_State_Zip_Code_1__c ),
+ ISBLANK( Account.State_1__c ),
+ ISBLANK( Account.Zip_1__c ),
+ ISBLANK( Account.Mobile_Phone_1__c ),
+ ISBLANK( Account.SSN_1__c ),
+ ISBLANK( Account.Date_of_Birth_1__c ),
+ ISBLANK( Account.Date_of_Birth_1__c ),
+ ISBLANK( Account.DBA_Name__c),
+ ISBLANK( TEXT( Account.Entity_Type__c ) ),
+ ISBLANK( Account.Legal_Name__c),
+ ISBLANK( Account.Legal_State__c),
+ ISBLANK( Account.Legal_City__c),
+ ISBLANK( Account.Legal_Zip__c)
+)
+)</errorConditionFormula>
+    <errorMessage>Before updating to "Ready To Submit", Leased / Owned (Picklist), First Name(1), Last Name(1), Residence Address(1), City(1), State(1), Zip(1) &amp; on the Account page.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Contract_Info_before_loan_type</fullName>
+    <active>true</active>
+    <description>This rule requires that contract information be entered before moving to the Approved or Signed Stages</description>
+    <errorConditionFormula>OR(
+
+  And(
+  ISPICKVAL(Loan_Type__c, "Fixed Daily [ACH Loan]"),
+    OR (
+  ISBLANK(Specified_Percentage__c),
+  ISBLANK(ACH_Program_Fee__c ),
+  ISBLANK( Number_of_Payments__c ))
+  ),
+
+  And(
+  ISPICKVAL(Loan_Type__c, "Holdback [MCA]"),
+  ISBLANK( Daily_Holdback_Amount__c))
+   
+ 
+ )</errorConditionFormula>
+    <errorDisplayField>Loan_Type__c</errorDisplayField>
+    <errorMessage>If Loan Type is Fixed Daily [ACH Loan], Number of Payments, Specified Percentage and ACH Program Fee are required. If Loan Type is MCA, Daily Holdback % is required.</errorMessage>
+</ValidationRule>

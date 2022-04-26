@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewals_Tom</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opener_Name__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>tzoha</value>
+    </filters>
+    <filters>
+        <field>Stage_Helper__c</field>
+        <operation>equals</operation>
+        <value>Renewal Eligible</value>
+    </filters>
+    <label>Renewals- Tom</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Cristina_Guerrero</group>
+        <group>Lu_Admin</group>
+        <group>tom</group>
+    </sharedTo>
+</ListView>

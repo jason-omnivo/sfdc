@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_of_Funds_Web__c</fullName>
+    <description>The merchant will select here what he generally intends on using the money for on the online form</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The merchant will select here what he generally intends on using the money for on the online form</inlineHelpText>
+    <label>Use of Funds (Web)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Working Capital</fullName>
+                <default>false</default>
+                <label>Working Capital</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Refinancing / Consolidation</fullName>
+                <default>false</default>
+                <label>Refinancing / Consolidation</label>
+            </value>
+            <value>
+                <fullName>Pay Bills</fullName>
+                <default>false</default>
+                <label>Pay Bills</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

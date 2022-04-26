@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Declined_Other_to_Specify</fullName>
+    <active>true</active>
+    <description>This rules requires that when Other is selected as a reason for decline, user must specify the reason in the Specify field</description>
+    <errorConditionFormula>AND (
+INCLUDES( Reason_for_Decline__c, "Other"),
+ISBLANK(Reason_for_Decline_Description__c)
+
+)</errorConditionFormula>
+    <errorDisplayField>Reason_for_Decline_Description__c</errorDisplayField>
+    <errorMessage>Enter a Description for Reason for Decline</errorMessage>
+</ValidationRule>

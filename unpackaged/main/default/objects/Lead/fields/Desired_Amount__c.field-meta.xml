@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Desired_Amount__c</fullName>
+    <externalId>false</externalId>
+    <label>Desired Amount</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>$10k to $50k</fullName>
+                <default>false</default>
+                <label>$10k to $50k</label>
+            </value>
+            <value>
+                <fullName>$50k to $150k</fullName>
+                <default>false</default>
+                <label>$50k to $150k</label>
+            </value>
+            <value>
+                <fullName>$150k to $300k</fullName>
+                <default>false</default>
+                <label>$150k to $300k</label>
+            </value>
+            <value>
+                <fullName>$300k to $600k</fullName>
+                <default>false</default>
+                <label>$300k to $600k</label>
+            </value>
+            <value>
+                <fullName>$600k to $1mm</fullName>
+                <default>false</default>
+                <label>$600k to $1mm</label>
+            </value>
+            <value>
+                <fullName>$1mm to $10mm</fullName>
+                <default>false</default>
+                <label>$1mm to $10mm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

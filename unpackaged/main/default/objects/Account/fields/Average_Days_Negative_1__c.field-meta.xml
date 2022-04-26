@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_Days_Negative_1__c</fullName>
+    <externalId>false</externalId>
+    <formula>(  Days_Negative1__c +  Days_Negative2__c +  Days_Negativew3__c +  Days_Negative4__c +  Days_Negative5__c +  Days_Negative7__c +  Days_Negative6__c +  Days_Negative8__c +  Days_Negative9__c +  Days_Negative10__c +  Days_Negative11__c +  Days_Negative12__c ) /
+
+if(
+if(Total_Deposits_1__c =0,0,1)+if(Total_Deposits_2__c =0,0,1)+if(Total_Deposits_3__c =0,0,1)+
+if(Total_Deposits_4__c =0,0,1)+if(Total_Deposits_5__c =0,0,1)+if(Total_Deposits_6__c =0,0,1)+
+if(Total_Deposits_7__c =0,0,1)+if(Total_Deposits_8__c =0,0,1)+if(Total_Deposits_9__c =0,0,1)+
+if(Total_Deposits_10__c =0,0,1)+if(Total_Deposits_11__c =0,0,1)+if(Total_Deposits_12__c =0,0,1)=0,1,if
+(Total_Deposits_1__c =0,0,1)+if(Total_Deposits_2__c =0,0,1)+if(Total_Deposits_3__c =0,0,1)+
+if(Total_Deposits_4__c =0,0,1)+if(Total_Deposits_5__c =0,0,1)+if(Total_Deposits_6__c =0,0,1)+
+if(Total_Deposits_7__c =0,0,1)+if(Total_Deposits_8__c =0,0,1)+if(Total_Deposits_9__c =0,0,1)+
+if(Total_Deposits_10__c =0,0,1)+if(Total_Deposits_11__c =0,0,1)+if(Total_Deposits_12__c =0,0,1) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Average Days Negative</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

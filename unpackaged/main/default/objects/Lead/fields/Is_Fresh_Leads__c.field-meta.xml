@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Fresh_Leads__c</fullName>
+    <externalId>false</externalId>
+    <formula>Campaign__r.Name = 'Enablement Data 062019' || Campaign__r.Name = "UCC_071019"</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Fresh Leads</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

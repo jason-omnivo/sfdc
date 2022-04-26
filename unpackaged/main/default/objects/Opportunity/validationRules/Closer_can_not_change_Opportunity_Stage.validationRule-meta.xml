@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closer_can_not_change_Opportunity_Stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED( StageName ) &amp;&amp; $User.Alias == 'Closer'</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Opportunity Stage can not be changed</errorMessage>
+</ValidationRule>

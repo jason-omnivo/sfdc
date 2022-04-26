@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequiresSubmissionFundedNoUnderwriting</fullName>
+    <active>true</active>
+    <description>This rule looks at the Submission = Funded? field on the opp which is updated by a workflow on the submission object when a submission bank status is set to funded to True, and the Submission rollup field which counts how many submissions are in the Under</description>
+    <errorConditionFormula>AND (
+ISPICKVAL(StageName, "Funded"), 
+OR (
+
+NOT(Submission_Funded__c),
+ (Submissions__c    &lt;&gt;   0)
+)
+)</errorConditionFormula>
+    <errorMessage>Before updating, set the appropriate Submission (in the Submissions Grid) to 'Funded', and make sure there are no Submissions in the Underwriting status.</errorMessage>
+</ValidationRule>

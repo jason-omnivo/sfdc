@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin_Email__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+UserRole.DeveloperName,
+'Manager_Aiden_s_Team',
+'emc2@emcfinancial.com',
+'Sales_Reps_Aiden_s_Team',
+'emc2@emcfinancial.com',
+'admin@emcfinancial.com'
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Admin Email</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

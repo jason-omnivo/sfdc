@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merchant_Net_1__c</fullName>
+    <externalId>false</externalId>
+    <formula>Dollar_Amount_1__c  - (Total_Funder_Fees_1__c  +   Additional_Fees_1__c   +  Professional_Service_Fees_1__c  +  Prior_Advance_Payoff_1__c  + Vendor_Payoff_1__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Merchant Net</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

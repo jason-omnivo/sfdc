@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repayment_Method_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Repayment Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CC Processing</fullName>
+                <default>false</default>
+                <label>CC Processing</label>
+            </value>
+            <value>
+                <fullName>ACH Bank Login</fullName>
+                <default>false</default>
+                <label>ACH Bank Login</label>
+            </value>
+            <value>
+                <fullName>ACH  CC Portal</fullName>
+                <default>false</default>
+                <label>ACH  CC Portal</label>
+            </value>
+            <value>
+                <fullName>ACH Only</fullName>
+                <default>false</default>
+                <label>ACH Only</label>
+            </value>
+            <value>
+                <fullName>Lock Box</fullName>
+                <default>false</default>
+                <label>Lock Box</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

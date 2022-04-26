@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACH_Loan</fullName>
+    <active>true</active>
+    <description>When choosing ACH Loan, prevents users from entering MCA info</description>
+    <errorConditionFormula>AND (
+ ISPICKVAL(Loan_Type__c, "Fixed Daily [ACH Loan]"),
+
+  NOT( ISBLANK( Daily_Holdback_Amount__c )))</errorConditionFormula>
+    <errorDisplayField>Daily_Holdback_Amount__c</errorDisplayField>
+    <errorMessage>When Load Type is Fixed Daily [ACH Loan], The Daily Holdback Percentage [MCA] must be blank</errorMessage>
+</ValidationRule>

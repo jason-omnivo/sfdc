@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_CCP__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Approved - Ready for Download</fullName>
+                <default>false</default>
+                <label>Approved - Ready for Download</label>
+            </value>
+            <value>
+                <fullName>Missing Info</fullName>
+                <default>false</default>
+                <label>Missing Info</label>
+            </value>
+            <value>
+                <fullName>Downloaded</fullName>
+                <default>false</default>
+                <label>Downloaded</label>
+            </value>
+            <value>
+                <fullName>Batching</fullName>
+                <default>false</default>
+                <label>Batching</label>
+            </value>
+            <value>
+                <fullName>Ready to Submit</fullName>
+                <default>false</default>
+                <label>Ready to Submit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

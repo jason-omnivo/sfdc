@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Daily_Payment_or_MCA__c</fullName>
+    <description>This field is for the Conga Contract Generation App, to explain the payment frequency whether it will be a Daily payment or a MCA holdback</description>
+    <externalId>false</externalId>
+    <formula>Case( Loan_Type__c,
+
+
+"Fixed Daily [ACH Loan]", "$" &amp; 
+
+ IF(find(".", text(Daily_Payment3__c), 1)&gt;1,  
+
+   IF(CONTAINS(RIGHT(TEXT(ROUND(Daily_Payment3__c, 2)), 2),"."),  Text(round( Daily_Payment3__c ,2)) &amp; "0", 
+   Text(round( Daily_Payment3__c ,2))),
+ 
+ Text(Daily_Payment3__c)
+ )
+&amp;  IF(ISPICKVAL(Payment_Frequency__c, "Weekly"), " Weekly", " a Day"),
+
+"Holdback [MCA]", TEXT(Daily_Holdback_Amount__c) &amp; "% of Credit Card Sales",
+
+"","",
+""
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Daily Payment or MCA</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

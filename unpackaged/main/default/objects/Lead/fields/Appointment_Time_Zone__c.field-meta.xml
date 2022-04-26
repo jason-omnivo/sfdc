@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment_Time_Zone__c</fullName>
+    <externalId>false</externalId>
+    <label>Appointment Time Zone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eastern Time</fullName>
+                <default>false</default>
+                <label>Eastern Time</label>
+            </value>
+            <value>
+                <fullName>Central Time</fullName>
+                <default>false</default>
+                <label>Central Time</label>
+            </value>
+            <value>
+                <fullName>Mountain Time</fullName>
+                <default>false</default>
+                <label>Mountain Time</label>
+            </value>
+            <value>
+                <fullName>Pacific Time</fullName>
+                <default>false</default>
+                <label>Pacific Time</label>
+            </value>
+            <value>
+                <fullName>Hawaii Time</fullName>
+                <default>false</default>
+                <label>Hawaii Time</label>
+            </value>
+            <value>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+                <label>Not Specified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

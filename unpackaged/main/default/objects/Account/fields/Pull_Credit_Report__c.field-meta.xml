@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pull_Credit_Report__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Pull Credit Report</description>
+    <externalId>false</externalId>
+    <label>Pull Credit Report</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

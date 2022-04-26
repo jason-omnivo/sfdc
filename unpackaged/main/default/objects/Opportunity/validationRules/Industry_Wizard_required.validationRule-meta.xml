@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Wizard_required</fullName>
+    <active>true</active>
+    <description>This rule won't let a Opportunity be moved to the Ready to Submit stage unless it has a value in the Industry (Wizard)</description>
+    <errorConditionFormula>AND(
+  OR(
+   ISPICKVAL( StageName, "Ready to Submit"), 
+   ISPICKVAL( StageName, "Underwriting"),
+   ISPICKVAL( StageName, "Approved"),
+   ISPICKVAL( StageName, "Agreements Sent"),
+   ISPICKVAL( StageName, "Signed"),
+   ISPICKVAL( StageName, "Funded"),
+   ISPICKVAL( StageName, "Submitted")
+),
+ OR(
+ ISPICKVAL(Account.Industry__c, ""),
+ ISBLANK(Account.Date_Business_Established__c),
+ ISBLANK( Account.Percent_of_Ownership_1__c ),
+ ISBLANK( Account.Partner_1_Credit_Score__c )
+)
+)</errorConditionFormula>
+    <errorMessage>Before updating the Stage, you must enter the Industry (Wizard), Date Business Established, Credit Score(1) and % of Ownership(1) on the Account page.</errorMessage>
+</ValidationRule>

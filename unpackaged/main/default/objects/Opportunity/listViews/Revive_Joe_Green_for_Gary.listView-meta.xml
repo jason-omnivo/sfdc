@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revive_Joe_Green_for_Gary</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Max_Approval__c</columns>
+    <columns>Email_Opp__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Cell_Phone__c</columns>
+    <columns>Annual_Revenue_Trend__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Lost,Declined</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>jgreen</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notEqual</operation>
+        <value>Landmark Realty</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2019</value>
+    </filters>
+    <label>Revive - Joe Green for Gary</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Esther_Anatian</group>
+        <group>Joseph_Green</group>
+    </sharedTo>
+</ListView>

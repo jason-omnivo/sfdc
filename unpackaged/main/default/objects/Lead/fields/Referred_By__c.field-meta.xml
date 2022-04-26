@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referred_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This filed will contain the Contact who referred the Lead.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Contact who referred the Lead.</inlineHelpText>
+    <label>Referred By</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Leads (Referred By)</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

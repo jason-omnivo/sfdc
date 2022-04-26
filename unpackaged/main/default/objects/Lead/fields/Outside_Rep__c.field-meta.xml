@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outside_Rep__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>If lead was given to an outside rep we put his info here</description>
+    <externalId>false</externalId>
+    <label>Outside Rep</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Leads (Contact)</relationshipLabel>
+    <relationshipName>Leads1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>The Custom Setting will contain Opportunity Stages Name and Api Name of Campaign fields that needs to update for that Stage.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <label>OpportunityStages</label>
+    <visibility>Public</visibility>
+</CustomObject>

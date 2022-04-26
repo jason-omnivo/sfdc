@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Month_Year_Helper_is_Max_Acct_2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Set by Process Builder. Checked if Month/Year combination is equal to Max Month/Year Helper on Opportunity. Used to filter Total Amount Debited Roll-up Summary Field. For Account 2</description>
+    <externalId>false</externalId>
+    <label>Month/Year Helper is Max Act. 2</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Converted_Lead__c</fullName>
+    <description>This field is mapped to the Converted Lead field on the Lead object, allowing us to know which Opp originate from Leads and should thereby trigger a workflow.</description>
+    <externalId>false</externalId>
+    <label>Converted Lead</label>
+    <length>3</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

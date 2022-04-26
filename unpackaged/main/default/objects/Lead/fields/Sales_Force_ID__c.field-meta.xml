@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Force_ID__c</fullName>
+    <description>Gives a unique ID number to each Lead</description>
+    <displayFormat>ID-{000000}</displayFormat>
+    <externalId>true</externalId>
+    <label>Sales Force ID</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

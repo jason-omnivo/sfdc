@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Missing_Info</fullName>
+    <active>true</active>
+    <description>Does not allow stage to be changed to 'Application Missing Info' until the "Other Missing Application Information" is populated</description>
+    <errorConditionFormula>ISPICKVAL(StageName, "Application Missing Info")
+&amp;&amp;
+ISBLANK( Other_Missing_Application_Information__c )</errorConditionFormula>
+    <errorDisplayField>Other_Missing_Application_Information__c</errorDisplayField>
+    <errorMessage>You must add Other Missing Application Information before changing the Stage to 'Application Missing info'</errorMessage>
+</ValidationRule>

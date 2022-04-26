@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DocuSign_URL__c</fullName>
+    <description>For Sandbox:
+https://demo.docusign.net
+
+For Production:
+https://na3.docusign.net</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For Sandbox:
+https://demo.docusign.net
+
+For Production:
+https://na3.docusign.net</inlineHelpText>
+    <label>DocuSign URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

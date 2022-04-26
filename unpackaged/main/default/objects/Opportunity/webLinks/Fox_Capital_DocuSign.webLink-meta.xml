@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fox_Capital_DocuSign</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>225</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Fox Capital DocuSign - MSCG</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://composer.congamerge.com
+?sessionId={!API.Session_ID}
+&amp;serverUrl={!API.Partner_Server_URL_80}
+&amp;id={!Opportunity.Id}
+&amp;SelectTemplates=0
+&amp;TemplateId=a0bG0000008cEt1,a0bG0000009A7vR,a0bG0000009An2j
+&amp;BML=Fox Capital DocuSign Contract
+&amp;DS7=7
+&amp;EmailToId={!Opportunity.Id}
+&amp;LG0=0
+&amp;LG1=EMC Financial Contract Generated
+&amp;LG3=1
+&amp;LG4=1
+&amp;EmailToId={!Opportunity.Primary_ContactId__c}
+&amp;DocuSignVisible=1
+&amp;DocuSignR1id={!Opportunity.Primary_ContactId__c}
+&amp;DocuSignR1Type=Signer
+&amp;DocuSignR1Role=Signer+1
+&amp;DocuSignEmailSubject=EMC Financial Funding Contract
+&amp;DocuSignEmailBody=Please review and sign this contract, notify us if you have any questions by calling: 800-761-3108 x 0 or by responding to this email.
+&amp;FlattenPDFForms=1</url>
+    <width>700</width>
+</WebLink>

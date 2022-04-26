@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Submission_Signed_for_Stage_Sign</fullName>
+    <active>true</active>
+    <description>This rule won't allow the Stage to be updated to Signed unless one of the Submissions has been set to Signed</description>
+    <errorConditionFormula>AND (
+
+ISPICKVAL(StageName, "Signed"),
+ NOT(Submission_Signed__c)
+)</errorConditionFormula>
+    <errorMessage>Before changing the stage to Signed,  update the correct Submission record to signed</errorMessage>
+</ValidationRule>

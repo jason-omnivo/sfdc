@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_lost_Tom</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Act_1_Annual_Revenue_Trend__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Stage_Helper__c</field>
+        <operation>equals</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>tzoha</value>
+    </filters>
+    <label>Closed lost - Tom</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Cristina_Guerrero</group>
+        <group>tom</group>
+    </sharedTo>
+</ListView>

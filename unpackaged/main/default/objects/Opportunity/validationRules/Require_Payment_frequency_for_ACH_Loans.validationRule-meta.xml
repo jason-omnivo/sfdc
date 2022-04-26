@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Payment_frequency_for_ACH_Loans</fullName>
+    <active>true</active>
+    <description>This rule requires that contract information be entered</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Loan_Type__c, "Fixed Daily [ACH Loan]"),
+ISPICKVAL(Payment_Frequency__c, "")
+)</errorConditionFormula>
+    <errorDisplayField>Payment_Frequency__c</errorDisplayField>
+    <errorMessage>Please select Payment Frequency.</errorMessage>
+</ValidationRule>

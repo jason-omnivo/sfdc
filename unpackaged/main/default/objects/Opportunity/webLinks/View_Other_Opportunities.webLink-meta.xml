@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View_Other_Opportunities</fullName>
+    <availability>online</availability>
+    <description>This link to a dynamic report that will show all other Opportunities for this Account</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>View All Opportunities from Customer</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/00OG0000006hg9r?pc0=ACCOUNT_ID&amp;pn0=eq&amp;pv0={!Account.Id}</url>
+</WebLink>

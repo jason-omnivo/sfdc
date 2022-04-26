@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_123__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATETIMEVALUE(TEXT(Appointment_Date__c) + " " + TEXT(Appointment_Time__c)+"+0300")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Test 123</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Converted_Lead__c</fullName>
+    <defaultValue>'Yes'</defaultValue>
+    <description>This Field allows us to know when opportunities originate from leads and trigger a workflow upon conversion.</description>
+    <externalId>false</externalId>
+    <label>Converted Lead</label>
+    <length>3</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cashio_ISO_Agent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lists ISO agent name</description>
+    <externalId>false</externalId>
+    <label>Cashio ISO Agent</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipName>ISOs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

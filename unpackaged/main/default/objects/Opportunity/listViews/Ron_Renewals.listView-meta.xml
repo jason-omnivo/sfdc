@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ron_Renewals</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Last_Funded_Date__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Cell_Phone__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Email_Opp__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Renewal Eligible</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>rzagu</value>
+    </filters>
+    <label>Renewals - Ron</label>
+    <sharedTo>
+        <group>AIS_Ventures</group>
+        <group>Aiden_Ivory</group>
+        <group>Ron_Zaguri</group>
+    </sharedTo>
+</ListView>

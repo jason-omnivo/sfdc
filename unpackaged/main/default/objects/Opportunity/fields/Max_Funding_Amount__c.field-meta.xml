@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Funding_Amount__c</fullName>
+    <description>highest approval from all banks</description>
+    <externalId>false</externalId>
+    <label>Max Funding Amount</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1k to 5k</fullName>
+                <default>false</default>
+                <label>1k to 5k</label>
+            </value>
+            <value>
+                <fullName>5k to 20k</fullName>
+                <default>false</default>
+                <label>5k to 20k</label>
+            </value>
+            <value>
+                <fullName>20k to 50k</fullName>
+                <default>false</default>
+                <label>20k to 50k</label>
+            </value>
+            <value>
+                <fullName>50k +</fullName>
+                <default>false</default>
+                <label>50k +</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

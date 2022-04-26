@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Character__c</fullName>
+    <externalId>false</externalId>
+    <label>Character</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>nice guy</fullName>
+                <default>false</default>
+                <label>nice guy</label>
+            </value>
+            <value>
+                <fullName>curious</fullName>
+                <default>false</default>
+                <label>curious</label>
+            </value>
+            <value>
+                <fullName>angry</fullName>
+                <default>false</default>
+                <label>angry</label>
+            </value>
+            <value>
+                <fullName>heavy accent foreigner</fullName>
+                <default>false</default>
+                <label>heavy accent foreigner</label>
+            </value>
+            <value>
+                <fullName>Get to the point</fullName>
+                <default>false</default>
+                <label>Get to the point</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

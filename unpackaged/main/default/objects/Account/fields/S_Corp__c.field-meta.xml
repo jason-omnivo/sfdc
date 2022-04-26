@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>S_Corp__c</fullName>
+    <description>Used for Conga Merge to display S-Corp on contracts that have no checkbox for S-Corp, rather a box for 'Other'.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL( Entity_Type__c, "S-Corp"), "S-Corp", "")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>S-Corp</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

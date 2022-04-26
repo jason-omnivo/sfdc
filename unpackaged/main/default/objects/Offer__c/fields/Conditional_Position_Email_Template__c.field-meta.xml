@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conditional_Position_Email_Template__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Position__c, "1st"),"This offer is based on this deal funding as a 1st position offer.",
+IF(ISPICKVAL(Position__c, "2nd"),"This offer is based on this deal funding as a 2nd position offer.",
+IF(ISPICKVAL(Position__c, "3rd"),"This offer is based on this deal funding as a 3rd position offer.",
+" "
+)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Conditional Position (Email Template)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

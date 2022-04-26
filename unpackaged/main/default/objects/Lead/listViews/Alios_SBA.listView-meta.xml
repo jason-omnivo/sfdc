@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alios_SBA</fullName>
+    <booleanFilter>(1 AND 2 AND 3 AND 5 AND 6 AND 7) OR (2 AND 3 AND 4 AND 5 AND 6 AND 7)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>Date_Lead_Received__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Campaign__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>equals</operation>
+        <value>Alios SBA</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed - Not Interested Yet</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed - Bad Lead</value>
+    </filters>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>equals</operation>
+        <value>EMC SBA</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed - Unqualified No Business</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Already Applied</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>DO NOT CALL</value>
+    </filters>
+    <label>Alios SBA</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Ryan_O_Sullivan</group>
+    </sharedTo>
+</ListView>

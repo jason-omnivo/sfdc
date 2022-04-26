@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a time to receive an email reminder to follow up with the merchant when the time comes. Note: The email will be sent to the Opportunity Owner. Allow up to 30 minutes from the follow up time for the email to be sent.</inlineHelpText>
+    <label>Follow Up</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating_Req_If_Status_AppSent_Converted</fullName>
+    <active>false</active>
+    <description>If the Lead Status is Converted or Open - Awaiting App (App Sent)  then there should be value in Rating Picklist.</description>
+    <errorConditionFormula>AND( OR(  CONTAINS(TEXT(Status),'App Sent'), CONTAINS(TEXT(Status), 'Converted')) ,  ISBLANK(TEXT(Rating)))</errorConditionFormula>
+    <errorDisplayField>Rating</errorDisplayField>
+    <errorMessage>Please Provide Rating of Lead if the Lead Status is 'Open - Awaiting App (App Sent)' or  'Converted'.</errorMessage>
+</ValidationRule>

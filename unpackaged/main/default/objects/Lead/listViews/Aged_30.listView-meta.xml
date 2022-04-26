@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aged_30</fullName>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.ANNUAL_REVENUE</columns>
+    <columns>Call_Count__c</columns>
+    <columns>Date_Lead_Reignited__c</columns>
+    <columns>Annual_Gross_Sales__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.DO_NOT_CALL</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Is_Closed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notContain</operation>
+        <value>DO NOT CALL,Converted - Signed App,Converted - Verbal App</value>
+    </filters>
+    <filters>
+        <field>Date_Lead_Reignited__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:30</value>
+    </filters>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>notEqual</operation>
+        <value>MCA - Leads pro</value>
+    </filters>
+    <label>Aged 30</label>
+    <sharedTo>
+        <group>Chris_Hendley</group>
+        <group>Elazar_Krieger</group>
+        <group>Gary_B</group>
+        <group>James_Schmoyer</group>
+        <group>Jasmine_Waltz</group>
+        <group>Jeff_Thornton</group>
+        <group>Joe_Graves</group>
+        <group>Kelly_Williams</group>
+        <group>Kimberly_mecklenburg</group>
+        <group>Neil_Byalick</group>
+        <group>Roger_berazate</group>
+        <group>Shenae_Rivers</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visa_Mc_total_formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Visa_MC_Volume_1__c +Visa_MC_Volume_2__c +Visa_MC_Volume_3__c +Visa_MC_Volume_4__c +
+Visa_MC_Volume_5__c +Visa_MC_Volume_6__c +Visa_MC_Volume_7__c +Visa_MC_Volume_8__c +
+Visa_MC_Volume_10__c +Visa_MC_Volume_11__c +Visa_MC_Volume_12__c +Visa_MC_Volume_13__c)
+
+/
+
+if(
+if(Visa_MC_Volume_1__c =0,0,1)+if(Visa_MC_Volume_2__c =0,0,1)+if(Visa_MC_Volume_3__c =0,0,1)+
+if(Visa_MC_Volume_4__c =0,0,1)+if(Visa_MC_Volume_5__c =0,0,1)+if(Visa_MC_Volume_6__c =0,0,1)+
+if(Visa_MC_Volume_7__c =0,0,1)+if(Visa_MC_Volume_8__c =0,0,1)+if(Visa_MC_Volume_10__c  =0,0,1)+if(Visa_MC_Volume_11__c =0,0,1)+if(Visa_MC_Volume_12__c =0,0,1)+if(Visa_MC_Volume_13__c  =0,0,1)=0,1,if
+
+(Visa_MC_Volume_1__c =0,0,1)+if(Visa_MC_Volume_2__c =0,0,1)+if(Visa_MC_Volume_3__c =0,0,1)+
+if(Visa_MC_Volume_4__c =0,0,1)+if(Visa_MC_Volume_5__c =0,0,1)+if(Visa_MC_Volume_6__c =0,0,1)+
+if(Visa_MC_Volume_7__c =0,0,1)+if(Visa_MC_Volume_8__c =0,0,1)+if(Visa_MC_Volume_10__c =0,0,1)+
+if(Visa_MC_Volume_11__c =0,0,1)+if(Visa_MC_Volume_12__c =0,0,1)+if(Visa_MC_Volume_13__c =0,0,1) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Visa/MC Avg Formula</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

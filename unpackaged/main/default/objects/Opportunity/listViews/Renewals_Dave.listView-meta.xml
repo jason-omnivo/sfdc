@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewals_Dave</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Last_Funded_Date_Formula__c</columns>
+    <columns>Act_1_Annual_Revenue_Trend__c</columns>
+    <columns>Annual_Revenue_Trend__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Cell_Phone__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Email_Opp__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Renewal Eligible</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>dfine</value>
+    </filters>
+    <filters>
+        <field>Act_1_Annual_Revenue_Trend__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1000000</value>
+    </filters>
+    <label>Renewals - Dave- over 1M</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Dave_Fine</group>
+        <group>Joseph_Green</group>
+    </sharedTo>
+</ListView>

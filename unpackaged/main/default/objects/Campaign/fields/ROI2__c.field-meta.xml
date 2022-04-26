@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROI2__c</fullName>
+    <description>The field will calculated  ROI% based on Total Value Won Opportunities and Actual Cost.</description>
+    <externalId>false</externalId>
+    <formula>IF(ActualCost == 0, NULL, ((AmountWonOpportunities - ActualCost)  / ActualCost ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The field will calculated  ROI% based on Total Value Won Opportunities and Actual Cost.</inlineHelpText>
+    <label>ROI %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

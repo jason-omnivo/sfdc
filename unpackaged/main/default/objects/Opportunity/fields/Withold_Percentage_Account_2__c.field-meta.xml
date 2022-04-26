@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Withold_Percentage_Account_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+   Total_Amount_Debited_Acct_2__c  * Act_2_Avg_Monthly_Deposit__c &lt;&gt; 0, 
+   Total_Amount_Debited_Acct_2__c / Act_2_Avg_Monthly_Deposit__c, 
+   null 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Withold Percentage (Account 2)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

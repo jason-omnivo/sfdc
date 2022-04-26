@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restricted_Industries__c</fullName>
+    <externalId>false</externalId>
+    <label>Restricted Industries</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting Services</fullName>
+                <default>false</default>
+                <label>Accounting Services</label>
+            </value>
+            <value>
+                <fullName>Adult Related</fullName>
+                <default>false</default>
+                <label>Adult Related</label>
+            </value>
+            <value>
+                <fullName>Advertising &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Advertising &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Advice of Sporting Events</fullName>
+                <default>false</default>
+                <label>Advice of Sporting Events</label>
+            </value>
+            <value>
+                <fullName>Agency-type business</fullName>
+                <default>false</default>
+                <label>Agency-type business</label>
+            </value>
+            <value>
+                <fullName>Agriculture / Farming</fullName>
+                <default>false</default>
+                <label>Agriculture / Farming</label>
+            </value>
+            <value>
+                <fullName>Air Conditioning and Heating</fullName>
+                <default>false</default>
+                <label>Air Conditioning and Heating</label>
+            </value>
+            <value>
+                <fullName>Airlines</fullName>
+                <default>false</default>
+                <label>Airlines</label>
+            </value>
+            <value>
+                <fullName>All churches except SIC</fullName>
+                <default>false</default>
+                <label>All churches except SIC</label>
+            </value>
+            <value>
+                <fullName>Ambulance Service</fullName>
+                <default>false</default>
+                <label>Ambulance Service</label>
+            </value>
+            <value>
+                <fullName>Amusement Center</fullName>
+                <default>false</default>
+                <label>Amusement Center</label>
+            </value>
+            <value>
+                <fullName>Apparel &amp; Electronics Wholesale</fullName>
+                <default>false</default>
+                <label>Apparel &amp; Electronics Wholesale</label>
+            </value>
+            <value>
+                <fullName>Appliance Repair</fullName>
+                <default>false</default>
+                <label>Appliance Repair</label>
+            </value>
+            <value>
+                <fullName>Attorneys</fullName>
+                <default>false</default>
+                <label>Attorneys</label>
+            </value>
+            <value>
+                <fullName>ATV Sales</fullName>
+                <default>false</default>
+                <label>ATV Sales</label>
+            </value>
+            <value>
+                <fullName>Auction House/Flea Markets</fullName>
+                <default>false</default>
+                <label>Auction House/Flea Markets</label>
+            </value>
+            <value>
+                <fullName>Audio Video Rental &amp; Sales</fullName>
+                <default>false</default>
+                <label>Audio Video Rental &amp; Sales</label>
+            </value>
+            <value>
+                <fullName>Auto Auctions</fullName>
+                <default>false</default>
+                <label>Auto Auctions</label>
+            </value>
+            <value>
+                <fullName>Auto Audio &amp; Detail</fullName>
+                <default>false</default>
+                <label>Auto Audio &amp; Detail</label>
+            </value>
+            <value>
+                <fullName>Auto Dealer New/Used - No Repairs</fullName>
+                <default>false</default>
+                <label>Auto Dealer New/Used - No Repairs</label>
+            </value>
+            <value>
+                <fullName>Auto Dealer Used/New + Auto Repair</fullName>
+                <default>false</default>
+                <label>Auto Dealer Used/New + Auto Repair</label>
+            </value>
+            <value>
+                <fullName>Automotive Auctioneers</fullName>
+                <default>false</default>
+                <label>Automotive Auctioneers</label>
+            </value>
+            <value>
+                <fullName>Auto Parts &amp; Hardware</fullName>
+                <default>false</default>
+                <label>Auto Parts &amp; Hardware</label>
+            </value>
+            <value>
+                <fullName>Aviation</fullName>
+                <default>false</default>
+                <label>Aviation</label>
+            </value>
+            <value>
+                <fullName>Bail Bonds</fullName>
+                <default>false</default>
+                <label>Bail Bonds</label>
+            </value>
+            <value>
+                <fullName>Bankrupt or Declining Franchises</fullName>
+                <default>false</default>
+                <label>Bankrupt or Declining Franchises</label>
+            </value>
+            <value>
+                <fullName>Behavioral/Mental Health Center</fullName>
+                <default>false</default>
+                <label>Behavioral/Mental Health Center</label>
+            </value>
+            <value>
+                <fullName>Boat &amp; RV Storage</fullName>
+                <default>false</default>
+                <label>Boat &amp; RV Storage</label>
+            </value>
+            <value>
+                <fullName>Boat Service Dealership</fullName>
+                <default>false</default>
+                <label>Boat Service Dealership</label>
+            </value>
+            <value>
+                <fullName>Bowling Center</fullName>
+                <default>false</default>
+                <label>Bowling Center</label>
+            </value>
+            <value>
+                <fullName>Branches &amp; Agencies of Foreign Banks</fullName>
+                <default>false</default>
+                <label>Branches &amp; Agencies of Foreign Banks</label>
+            </value>
+            <value>
+                <fullName>Broadcasting</fullName>
+                <default>false</default>
+                <label>Broadcasting</label>
+            </value>
+            <value>
+                <fullName>Building and Utility Construction</fullName>
+                <default>false</default>
+                <label>Building and Utility Construction</label>
+            </value>
+            <value>
+                <fullName>Business &amp; Vocational Schools</fullName>
+                <default>false</default>
+                <label>Business &amp; Vocational Schools</label>
+            </value>
+            <value>
+                <fullName>Candy and Other Confectionery Products</fullName>
+                <default>false</default>
+                <label>Candy and Other Confectionery Products</label>
+            </value>
+            <value>
+                <fullName>Car and Truck Rental/Leasing</fullName>
+                <default>false</default>
+                <label>Car and Truck Rental/Leasing</label>
+            </value>
+            <value>
+                <fullName>Carpentry</fullName>
+                <default>false</default>
+                <label>Carpentry</label>
+            </value>
+            <value>
+                <fullName>Carpet &amp; Flooring</fullName>
+                <default>false</default>
+                <label>Carpet &amp; Flooring</label>
+            </value>
+            <value>
+                <fullName>Casino/Gambling</fullName>
+                <default>false</default>
+                <label>Casino/Gambling</label>
+            </value>
+            <value>
+                <fullName>Catalogue/Mail-Order Houses</fullName>
+                <default>false</default>
+                <label>Catalogue/Mail-Order Houses</label>
+            </value>
+            <value>
+                <fullName>Cemetery &amp; Funeral Homes</fullName>
+                <default>false</default>
+                <label>Cemetery &amp; Funeral Homes</label>
+            </value>
+            <value>
+                <fullName>Check Cashing</fullName>
+                <default>false</default>
+                <label>Check Cashing</label>
+            </value>
+            <value>
+                <fullName>Cleaning &amp; Maintenance Services</fullName>
+                <default>false</default>
+                <label>Cleaning &amp; Maintenance Services</label>
+            </value>
+            <value>
+                <fullName>Collection Agency</fullName>
+                <default>false</default>
+                <label>Collection Agency</label>
+            </value>
+            <value>
+                <fullName>Commercial &amp; Industrial Machinery</fullName>
+                <default>false</default>
+                <label>Commercial &amp; Industrial Machinery</label>
+            </value>
+            <value>
+                <fullName>Commercial Banking</fullName>
+                <default>false</default>
+                <label>Commercial Banking</label>
+            </value>
+            <value>
+                <fullName>Commercial Building Maintenance</fullName>
+                <default>false</default>
+                <label>Commercial Building Maintenance</label>
+            </value>
+            <value>
+                <fullName>Commercial Grinding</fullName>
+                <default>false</default>
+                <label>Commercial Grinding</label>
+            </value>
+            <value>
+                <fullName>commercial space rental</fullName>
+                <default>false</default>
+                <label>commercial space rental</label>
+            </value>
+            <value>
+                <fullName>Committees/Public Administration</fullName>
+                <default>false</default>
+                <label>Committees/Public Administration</label>
+            </value>
+            <value>
+                <fullName>Commodity Contact Dealing/Brokerage/Exch</fullName>
+                <default>false</default>
+                <label>Commodity Contact Dealing/Brokerage/Exch</label>
+            </value>
+            <value>
+                <fullName>Computer Game Developer</fullName>
+                <default>false</default>
+                <label>Computer Game Developer</label>
+            </value>
+            <value>
+                <fullName>Computer Software Development</fullName>
+                <default>false</default>
+                <label>Computer Software Development</label>
+            </value>
+            <value>
+                <fullName>Concrete Cutting</fullName>
+                <default>false</default>
+                <label>Concrete Cutting</label>
+            </value>
+            <value>
+                <fullName>Concrete Products, Except Block &amp; Brick</fullName>
+                <default>false</default>
+                <label>Concrete Products, Except Block &amp; Brick</label>
+            </value>
+            <value>
+                <fullName>Consignment Store</fullName>
+                <default>false</default>
+                <label>Consignment Store</label>
+            </value>
+            <value>
+                <fullName>Construction - Residential/Commercial</fullName>
+                <default>false</default>
+                <label>Construction - Residential/Commercial</label>
+            </value>
+            <value>
+                <fullName>Consultants</fullName>
+                <default>false</default>
+                <label>Consultants</label>
+            </value>
+            <value>
+                <fullName>Consulting Engineers</fullName>
+                <default>false</default>
+                <label>Consulting Engineers</label>
+            </value>
+            <value>
+                <fullName>Consumer Lending</fullName>
+                <default>false</default>
+                <label>Consumer Lending</label>
+            </value>
+            <value>
+                <fullName>Contractor - Aluminum</fullName>
+                <default>false</default>
+                <label>Contractor - Aluminum</label>
+            </value>
+            <value>
+                <fullName>Convenience Store</fullName>
+                <default>false</default>
+                <label>Convenience Store</label>
+            </value>
+            <value>
+                <fullName>Corporate Housing</fullName>
+                <default>false</default>
+                <label>Corporate Housing</label>
+            </value>
+            <value>
+                <fullName>Counseling Services</fullName>
+                <default>false</default>
+                <label>Counseling Services</label>
+            </value>
+            <value>
+                <fullName>Courier Service</fullName>
+                <default>false</default>
+                <label>Courier Service</label>
+            </value>
+            <value>
+                <fullName>CPA / Accountant / Tax Prep</fullName>
+                <default>false</default>
+                <label>CPA / Accountant / Tax Prep</label>
+            </value>
+            <value>
+                <fullName>Credit Card Issuing</fullName>
+                <default>false</default>
+                <label>Credit Card Issuing</label>
+            </value>
+            <value>
+                <fullName>Credit Card Protection</fullName>
+                <default>false</default>
+                <label>Credit Card Protection</label>
+            </value>
+            <value>
+                <fullName>Credit Intermediary</fullName>
+                <default>false</default>
+                <label>Credit Intermediary</label>
+            </value>
+            <value>
+                <fullName>Credit Repair and/or Restoration</fullName>
+                <default>false</default>
+                <label>Credit Repair and/or Restoration</label>
+            </value>
+            <value>
+                <fullName>Credit Union</fullName>
+                <default>false</default>
+                <label>Credit Union</label>
+            </value>
+            <value>
+                <fullName>Cruise Ships</fullName>
+                <default>false</default>
+                <label>Cruise Ships</label>
+            </value>
+            <value>
+                <fullName>Currency Exchange</fullName>
+                <default>false</default>
+                <label>Currency Exchange</label>
+            </value>
+            <value>
+                <fullName>Custom Cabinetry</fullName>
+                <default>false</default>
+                <label>Custom Cabinetry</label>
+            </value>
+            <value>
+                <fullName>Dance Company &amp; School</fullName>
+                <default>false</default>
+                <label>Dance Company &amp; School</label>
+            </value>
+            <value>
+                <fullName>Day Care</fullName>
+                <default>false</default>
+                <label>Day Care</label>
+            </value>
+            <value>
+                <fullName>Debt Collector</fullName>
+                <default>false</default>
+                <label>Debt Collector</label>
+            </value>
+            <value>
+                <fullName>Delivery Service</fullName>
+                <default>false</default>
+                <label>Delivery Service</label>
+            </value>
+            <value>
+                <fullName>Demolition</fullName>
+                <default>false</default>
+                <label>Demolition</label>
+            </value>
+            <value>
+                <fullName>Depository Credit Intermediation</fullName>
+                <default>false</default>
+                <label>Depository Credit Intermediation</label>
+            </value>
+            <value>
+                <fullName>Direct Health/Medical/Life Ins. Carriers</fullName>
+                <default>false</default>
+                <label>Direct Health/Medical/Life Ins. Carriers</label>
+            </value>
+            <value>
+                <fullName>Direct Marketing</fullName>
+                <default>false</default>
+                <label>Direct Marketing</label>
+            </value>
+            <value>
+                <fullName>Discount Travel Clubs/Subscriptions</fullName>
+                <default>false</default>
+                <label>Discount Travel Clubs/Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Drapery Sales &amp; Installation</fullName>
+                <default>false</default>
+                <label>Drapery Sales &amp; Installation</label>
+            </value>
+            <value>
+                <fullName>Drug Paraphernalia</fullName>
+                <default>false</default>
+                <label>Drug Paraphernalia</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Electrical Contractor</fullName>
+                <default>false</default>
+                <label>Electrical Contractor</label>
+            </value>
+            <value>
+                <fullName>Electromedical</fullName>
+                <default>false</default>
+                <label>Electromedical</label>
+            </value>
+            <value>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+                <label>Electronics</label>
+            </value>
+            <value>
+                <fullName>Electrotherapeutic Apparatus Manuf</fullName>
+                <default>false</default>
+                <label>Electrotherapeutic Apparatus Manuf</label>
+            </value>
+            <value>
+                <fullName>Employment Agencies</fullName>
+                <default>false</default>
+                <label>Employment Agencies</label>
+            </value>
+            <value>
+                <fullName>Energy Brokerage</fullName>
+                <default>false</default>
+                <label>Energy Brokerage</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Entertainment Group</fullName>
+                <default>false</default>
+                <label>Entertainment Group</label>
+            </value>
+            <value>
+                <fullName>Environmental Consulting Services</fullName>
+                <default>false</default>
+                <label>Environmental Consulting Services</label>
+            </value>
+            <value>
+                <fullName>Equestrian Breeding/Training</fullName>
+                <default>false</default>
+                <label>Equestrian Breeding/Training</label>
+            </value>
+            <value>
+                <fullName>Escort Services</fullName>
+                <default>false</default>
+                <label>Escort Services</label>
+            </value>
+            <value>
+                <fullName>Escrow Service</fullName>
+                <default>false</default>
+                <label>Escrow Service</label>
+            </value>
+            <value>
+                <fullName>Event Planning</fullName>
+                <default>false</default>
+                <label>Event Planning</label>
+            </value>
+            <value>
+                <fullName>Excavation</fullName>
+                <default>false</default>
+                <label>Excavation</label>
+            </value>
+            <value>
+                <fullName>Export/Import</fullName>
+                <default>false</default>
+                <label>Export/Import</label>
+            </value>
+            <value>
+                <fullName>Factoring Organizations</fullName>
+                <default>false</default>
+                <label>Factoring Organizations</label>
+            </value>
+            <value>
+                <fullName>Farming</fullName>
+                <default>false</default>
+                <label>Farming</label>
+            </value>
+            <value>
+                <fullName>Fencing Contractors</fullName>
+                <default>false</default>
+                <label>Fencing Contractors</label>
+            </value>
+            <value>
+                <fullName>Film Production</fullName>
+                <default>false</default>
+                <label>Film Production</label>
+            </value>
+            <value>
+                <fullName>Financial Planning/Investments</fullName>
+                <default>false</default>
+                <label>Financial Planning/Investments</label>
+            </value>
+            <value>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+                <label>Financial Services</label>
+            </value>
+            <value>
+                <fullName>Financial Transaction Processing</fullName>
+                <default>false</default>
+                <label>Financial Transaction Processing</label>
+            </value>
+            <value>
+                <fullName>Fire &amp; Water Restoration</fullName>
+                <default>false</default>
+                <label>Fire &amp; Water Restoration</label>
+            </value>
+            <value>
+                <fullName>Firearms Sales</fullName>
+                <default>false</default>
+                <label>Firearms Sales</label>
+            </value>
+            <value>
+                <fullName>Fire Safety</fullName>
+                <default>false</default>
+                <label>Fire Safety</label>
+            </value>
+            <value>
+                <fullName>Fitness &amp; Recreational Facilities</fullName>
+                <default>false</default>
+                <label>Fitness &amp; Recreational Facilities</label>
+            </value>
+            <value>
+                <fullName>Flea Markets</fullName>
+                <default>false</default>
+                <label>Flea Markets</label>
+            </value>
+            <value>
+                <fullName>Florists</fullName>
+                <default>false</default>
+                <label>Florists</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Beverage</fullName>
+                <default>false</default>
+                <label>Food &amp; Beverage</label>
+            </value>
+            <value>
+                <fullName>Framing Contractor</fullName>
+                <default>false</default>
+                <label>Framing Contractor</label>
+            </value>
+            <value>
+                <fullName>Fraternity/Sorority</fullName>
+                <default>false</default>
+                <label>Fraternity/Sorority</label>
+            </value>
+            <value>
+                <fullName>Freight and Shipping Broker</fullName>
+                <default>false</default>
+                <label>Freight and Shipping Broker</label>
+            </value>
+            <value>
+                <fullName>Funeral Services</fullName>
+                <default>false</default>
+                <label>Funeral Services</label>
+            </value>
+            <value>
+                <fullName>Furniture Stores</fullName>
+                <default>false</default>
+                <label>Furniture Stores</label>
+            </value>
+            <value>
+                <fullName>Gambling / Casino</fullName>
+                <default>false</default>
+                <label>Gambling / Casino</label>
+            </value>
+            <value>
+                <fullName>Garage Door Installation &amp; Repairs</fullName>
+                <default>false</default>
+                <label>Garage Door Installation &amp; Repairs</label>
+            </value>
+            <value>
+                <fullName>Garbage &amp; Recycling Services</fullName>
+                <default>false</default>
+                <label>Garbage &amp; Recycling Services</label>
+            </value>
+            <value>
+                <fullName>Gas Stations</fullName>
+                <default>false</default>
+                <label>Gas Stations</label>
+            </value>
+            <value>
+                <fullName>General Contractor</fullName>
+                <default>false</default>
+                <label>General Contractor</label>
+            </value>
+            <value>
+                <fullName>Glass Sales &amp; Repair</fullName>
+                <default>false</default>
+                <label>Glass Sales &amp; Repair</label>
+            </value>
+            <value>
+                <fullName>Governmental Agencies &amp; Non-Profits</fullName>
+                <default>false</default>
+                <label>Governmental Agencies &amp; Non-Profits</label>
+            </value>
+            <value>
+                <fullName>Grocery Store</fullName>
+                <default>false</default>
+                <label>Grocery Store</label>
+            </value>
+            <value>
+                <fullName>Guns and Ammunition</fullName>
+                <default>false</default>
+                <label>Guns and Ammunition</label>
+            </value>
+            <value>
+                <fullName>Hair Salon &amp; Day Spa</fullName>
+                <default>false</default>
+                <label>Hair Salon &amp; Day Spa</label>
+            </value>
+            <value>
+                <fullName>Health&amp;Fitness</fullName>
+                <default>false</default>
+                <label>Health&amp;Fitness</label>
+            </value>
+            <value>
+                <fullName>Hearing Aid Sales &amp; Service</fullName>
+                <default>false</default>
+                <label>Hearing Aid Sales &amp; Service</label>
+            </value>
+            <value>
+                <fullName>Home Appliances</fullName>
+                <default>false</default>
+                <label>Home Appliances</label>
+            </value>
+            <value>
+                <fullName>Home Based Business</fullName>
+                <default>false</default>
+                <label>Home Based Business</label>
+            </value>
+            <value>
+                <fullName>Home Building &amp; Construction</fullName>
+                <default>false</default>
+                <label>Home Building &amp; Construction</label>
+            </value>
+            <value>
+                <fullName>Home Improvement</fullName>
+                <default>false</default>
+                <label>Home Improvement</label>
+            </value>
+            <value>
+                <fullName>Horoscope/Fortune Telling</fullName>
+                <default>false</default>
+                <label>Horoscope/Fortune Telling</label>
+            </value>
+            <value>
+                <fullName>Horse Rental Services</fullName>
+                <default>false</default>
+                <label>Horse Rental Services</label>
+            </value>
+            <value>
+                <fullName>Hotel / Motel</fullName>
+                <default>false</default>
+                <label>Hotel / Motel</label>
+            </value>
+            <value>
+                <fullName>House Flipping</fullName>
+                <default>false</default>
+                <label>House Flipping</label>
+            </value>
+            <value>
+                <fullName>HR Administration Services</fullName>
+                <default>false</default>
+                <label>HR Administration Services</label>
+            </value>
+            <value>
+                <fullName>HVAC</fullName>
+                <default>false</default>
+                <label>HVAC</label>
+            </value>
+            <value>
+                <fullName>Importing Goods</fullName>
+                <default>false</default>
+                <label>Importing Goods</label>
+            </value>
+            <value>
+                <fullName>Income Tax Prep Services</fullName>
+                <default>false</default>
+                <label>Income Tax Prep Services</label>
+            </value>
+            <value>
+                <fullName>Industrial Cleaning</fullName>
+                <default>false</default>
+                <label>Industrial Cleaning</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Insurance Agencies &amp; Brokers</fullName>
+                <default>false</default>
+                <label>Insurance Agencies &amp; Brokers</label>
+            </value>
+            <value>
+                <fullName>Insurance-Related Services or Activities</fullName>
+                <default>false</default>
+                <label>Insurance-Related Services or Activities</label>
+            </value>
+            <value>
+                <fullName>International Trade Financing</fullName>
+                <default>false</default>
+                <label>International Trade Financing</label>
+            </value>
+            <value>
+                <fullName>Internet/Cable Provider</fullName>
+                <default>false</default>
+                <label>Internet/Cable Provider</label>
+            </value>
+            <value>
+                <fullName>Internet and Cable Provider</fullName>
+                <default>false</default>
+                <label>Internet and Cable Provider</label>
+            </value>
+            <value>
+                <fullName>Internet Technology</fullName>
+                <default>false</default>
+                <label>Internet Technology</label>
+            </value>
+            <value>
+                <fullName>Investment Opportunities, Investors</fullName>
+                <default>false</default>
+                <label>Investment Opportunities, Investors</label>
+            </value>
+            <value>
+                <fullName>Investment Services</fullName>
+                <default>false</default>
+                <label>Investment Services</label>
+            </value>
+            <value>
+                <fullName>IT Solutions</fullName>
+                <default>false</default>
+                <label>IT Solutions</label>
+            </value>
+            <value>
+                <fullName>Janitorial Service supply</fullName>
+                <default>false</default>
+                <label>Janitorial Service supply</label>
+            </value>
+            <value>
+                <fullName>Jewelry</fullName>
+                <default>false</default>
+                <label>Jewelry</label>
+            </value>
+            <value>
+                <fullName>Kiosks</fullName>
+                <default>false</default>
+                <label>Kiosks</label>
+            </value>
+            <value>
+                <fullName>Land Clearing/Heavy Construction - 1629</fullName>
+                <default>false</default>
+                <label>Land Clearing/Heavy Construction - 1629</label>
+            </value>
+            <value>
+                <fullName>Land Maintenance</fullName>
+                <default>false</default>
+                <label>Land Maintenance</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>Lawyers and Attorneys</fullName>
+                <default>false</default>
+                <label>Lawyers and Attorneys</label>
+            </value>
+            <value>
+                <fullName>Lenders</fullName>
+                <default>false</default>
+                <label>Lenders</label>
+            </value>
+            <value>
+                <fullName>Libraries</fullName>
+                <default>false</default>
+                <label>Libraries</label>
+            </value>
+            <value>
+                <fullName>Limousine</fullName>
+                <default>false</default>
+                <label>Limousine</label>
+            </value>
+            <value>
+                <fullName>Locksmith</fullName>
+                <default>false</default>
+                <label>Locksmith</label>
+            </value>
+            <value>
+                <fullName>Logging</fullName>
+                <default>false</default>
+                <label>Logging</label>
+            </value>
+            <value>
+                <fullName>Logistics</fullName>
+                <default>false</default>
+                <label>Logistics</label>
+            </value>
+            <value>
+                <fullName>Lottery/ Raffles/Gaming/Gambling</fullName>
+                <default>false</default>
+                <label>Lottery/ Raffles/Gaming/Gambling</label>
+            </value>
+            <value>
+                <fullName>Lumber Mill / Sales</fullName>
+                <default>false</default>
+                <label>Lumber Mill / Sales</label>
+            </value>
+            <value>
+                <fullName>Machinery Rigging</fullName>
+                <default>false</default>
+                <label>Machinery Rigging</label>
+            </value>
+            <value>
+                <fullName>Magazine Subscriptions</fullName>
+                <default>false</default>
+                <label>Magazine Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Mail Order Coin Sales</fullName>
+                <default>false</default>
+                <label>Mail Order Coin Sales</label>
+            </value>
+            <value>
+                <fullName>Management Companies</fullName>
+                <default>false</default>
+                <label>Management Companies</label>
+            </value>
+            <value>
+                <fullName>Manufacturing of structural steel</fullName>
+                <default>false</default>
+                <label>Manufacturing of structural steel</label>
+            </value>
+            <value>
+                <fullName>Marijuana Dispensaries</fullName>
+                <default>false</default>
+                <label>Marijuana Dispensaries</label>
+            </value>
+            <value>
+                <fullName>Marinas</fullName>
+                <default>false</default>
+                <label>Marinas</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Marketing Research/Opinion Polling</fullName>
+                <default>false</default>
+                <label>Marketing Research/Opinion Polling</label>
+            </value>
+            <value>
+                <fullName>Masonry-Stone-Plaster</fullName>
+                <default>false</default>
+                <label>Masonry-Stone-Plaster</label>
+            </value>
+            <value>
+                <fullName>Mechanical Contractor</fullName>
+                <default>false</default>
+                <label>Mechanical Contractor</label>
+            </value>
+            <value>
+                <fullName>Medical</fullName>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>Merchandising</fullName>
+                <default>false</default>
+                <label>Merchandising</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Misc. Intermediation</fullName>
+                <default>false</default>
+                <label>Misc. Intermediation</label>
+            </value>
+            <value>
+                <fullName>Mobile Home Manufacturers</fullName>
+                <default>false</default>
+                <label>Mobile Home Manufacturers</label>
+            </value>
+            <value>
+                <fullName>Monetary Authorities</fullName>
+                <default>false</default>
+                <label>Monetary Authorities</label>
+            </value>
+            <value>
+                <fullName>Mortgage Lenders</fullName>
+                <default>false</default>
+                <label>Mortgage Lenders</label>
+            </value>
+            <value>
+                <fullName>Mortgage Reduction Services</fullName>
+                <default>false</default>
+                <label>Mortgage Reduction Services</label>
+            </value>
+            <value>
+                <fullName>Mortuary/Funeral Home</fullName>
+                <default>false</default>
+                <label>Mortuary/Funeral Home</label>
+            </value>
+            <value>
+                <fullName>Motorcycle/Scooter Dealerships</fullName>
+                <default>false</default>
+                <label>Motorcycle/Scooter Dealerships</label>
+            </value>
+            <value>
+                <fullName>Motorcycle Parts, Sales, &amp; Service</fullName>
+                <default>false</default>
+                <label>Motorcycle Parts, Sales, &amp; Service</label>
+            </value>
+            <value>
+                <fullName>Moving &amp; Storage</fullName>
+                <default>false</default>
+                <label>Moving &amp; Storage</label>
+            </value>
+            <value>
+                <fullName>Multi-Level Marketing</fullName>
+                <default>false</default>
+                <label>Multi-Level Marketing</label>
+            </value>
+            <value>
+                <fullName>Music Production</fullName>
+                <default>false</default>
+                <label>Music Production</label>
+            </value>
+            <value>
+                <fullName>Nightclub/Lounge</fullName>
+                <default>false</default>
+                <label>Nightclub/Lounge</label>
+            </value>
+            <value>
+                <fullName>Non-Bank Cash Advances</fullName>
+                <default>false</default>
+                <label>Non-Bank Cash Advances</label>
+            </value>
+            <value>
+                <fullName>Non-Profit</fullName>
+                <default>false</default>
+                <label>Non-Profit</label>
+            </value>
+            <value>
+                <fullName>Nursery</fullName>
+                <default>false</default>
+                <label>Nursery</label>
+            </value>
+            <value>
+                <fullName>Oil / Gas Producer</fullName>
+                <default>false</default>
+                <label>Oil / Gas Producer</label>
+            </value>
+            <value>
+                <fullName>Oil Cleaning</fullName>
+                <default>false</default>
+                <label>Oil Cleaning</label>
+            </value>
+            <value>
+                <fullName>Online Pharmacies, Herbs or Weight Loss Products</fullName>
+                <default>false</default>
+                <label>Online Pharmacies, Herbs or Weight Loss Products</label>
+            </value>
+            <value>
+                <fullName>Operators &amp; Developers</fullName>
+                <default>false</default>
+                <label>Operators &amp; Developers</label>
+            </value>
+            <value>
+                <fullName>Other Building Material Dealers</fullName>
+                <default>false</default>
+                <label>Other Building Material Dealers</label>
+            </value>
+            <value>
+                <fullName>Outdoor Power Equipment Stores</fullName>
+                <default>false</default>
+                <label>Outdoor Power Equipment Stores</label>
+            </value>
+            <value>
+                <fullName>Packing &amp; Shipping Services</fullName>
+                <default>false</default>
+                <label>Packing &amp; Shipping Services</label>
+            </value>
+            <value>
+                <fullName>Painting Contractor</fullName>
+                <default>false</default>
+                <label>Painting Contractor</label>
+            </value>
+            <value>
+                <fullName>Passport Expediting</fullName>
+                <default>false</default>
+                <label>Passport Expediting</label>
+            </value>
+            <value>
+                <fullName>Paving &amp; Grading</fullName>
+                <default>false</default>
+                <label>Paving &amp; Grading</label>
+            </value>
+            <value>
+                <fullName>Pawn Shop</fullName>
+                <default>false</default>
+                <label>Pawn Shop</label>
+            </value>
+            <value>
+                <fullName>Payday &amp; Other Short-Term Lenders</fullName>
+                <default>false</default>
+                <label>Payday &amp; Other Short-Term Lenders</label>
+            </value>
+            <value>
+                <fullName>Payroll Companies</fullName>
+                <default>false</default>
+                <label>Payroll Companies</label>
+            </value>
+            <value>
+                <fullName>Personal Trainers</fullName>
+                <default>false</default>
+                <label>Personal Trainers</label>
+            </value>
+            <value>
+                <fullName>Pest Control</fullName>
+                <default>false</default>
+                <label>Pest Control</label>
+            </value>
+            <value>
+                <fullName>Pharmaceutical</fullName>
+                <default>false</default>
+                <label>Pharmaceutical</label>
+            </value>
+            <value>
+                <fullName>Pleating, Decorative &amp; Novelty Stitching</fullName>
+                <default>false</default>
+                <label>Pleating, Decorative &amp; Novelty Stitching</label>
+            </value>
+            <value>
+                <fullName>Plumbing</fullName>
+                <default>false</default>
+                <label>Plumbing</label>
+            </value>
+            <value>
+                <fullName>Political Campaigns/Candidates</fullName>
+                <default>false</default>
+                <label>Political Campaigns/Candidates</label>
+            </value>
+            <value>
+                <fullName>Portfolio Management</fullName>
+                <default>false</default>
+                <label>Portfolio Management</label>
+            </value>
+            <value>
+                <fullName>Precious Metals and Coin Sales</fullName>
+                <default>false</default>
+                <label>Precious Metals and Coin Sales</label>
+            </value>
+            <value>
+                <fullName>Printing/Graphics</fullName>
+                <default>false</default>
+                <label>Printing/Graphics</label>
+            </value>
+            <value>
+                <fullName>Private Investigators</fullName>
+                <default>false</default>
+                <label>Private Investigators</label>
+            </value>
+            <value>
+                <fullName>Production and Drilling of Natural Gas</fullName>
+                <default>false</default>
+                <label>Production and Drilling of Natural Gas</label>
+            </value>
+            <value>
+                <fullName>Property &amp; Casualty Insurance Carriers</fullName>
+                <default>false</default>
+                <label>Property &amp; Casualty Insurance Carriers</label>
+            </value>
+            <value>
+                <fullName>Property Development</fullName>
+                <default>false</default>
+                <label>Property Development</label>
+            </value>
+            <value>
+                <fullName>Property Management</fullName>
+                <default>false</default>
+                <label>Property Management</label>
+            </value>
+            <value>
+                <fullName>Public Relations / Marketing</fullName>
+                <default>false</default>
+                <label>Public Relations / Marketing</label>
+            </value>
+            <value>
+                <fullName>Publishing</fullName>
+                <default>false</default>
+                <label>Publishing</label>
+            </value>
+            <value>
+                <fullName>Radio Station</fullName>
+                <default>false</default>
+                <label>Radio Station</label>
+            </value>
+            <value>
+                <fullName>Railcar Sales &amp; Leasing</fullName>
+                <default>false</default>
+                <label>Railcar Sales &amp; Leasing</label>
+            </value>
+            <value>
+                <fullName>Real Estate Agent</fullName>
+                <default>false</default>
+                <label>Real Estate Agent</label>
+            </value>
+            <value>
+                <fullName>Real Estate Broker</fullName>
+                <default>false</default>
+                <label>Real Estate Broker</label>
+            </value>
+            <value>
+                <fullName>Real Estate Credit</fullName>
+                <default>false</default>
+                <label>Real Estate Credit</label>
+            </value>
+            <value>
+                <fullName>Real Estate Management Companies</fullName>
+                <default>false</default>
+                <label>Real Estate Management Companies</label>
+            </value>
+            <value>
+                <fullName>Records &amp; Information Management</fullName>
+                <default>false</default>
+                <label>Records &amp; Information Management</label>
+            </value>
+            <value>
+                <fullName>Recreational Vehicles</fullName>
+                <default>false</default>
+                <label>Recreational Vehicles</label>
+            </value>
+            <value>
+                <fullName>Recycling</fullName>
+                <default>false</default>
+                <label>Recycling</label>
+            </value>
+            <value>
+                <fullName>Reinsurance Carriers</fullName>
+                <default>false</default>
+                <label>Reinsurance Carriers</label>
+            </value>
+            <value>
+                <fullName>Religious Institutions</fullName>
+                <default>false</default>
+                <label>Religious Institutions</label>
+            </value>
+            <value>
+                <fullName>Remodeling - Residential</fullName>
+                <default>false</default>
+                <label>Remodeling - Residential</label>
+            </value>
+            <value>
+                <fullName>Reserve &amp; Clearinghouse Activities</fullName>
+                <default>false</default>
+                <label>Reserve &amp; Clearinghouse Activities</label>
+            </value>
+            <value>
+                <fullName>Residential Glass Sale &amp; Installation</fullName>
+                <default>false</default>
+                <label>Residential Glass Sale &amp; Installation</label>
+            </value>
+            <value>
+                <fullName>Restaurant</fullName>
+                <default>false</default>
+                <label>Restaurant</label>
+            </value>
+            <value>
+                <fullName>Restoration</fullName>
+                <default>false</default>
+                <label>Restoration</label>
+            </value>
+            <value>
+                <fullName>Retail Bakery</fullName>
+                <default>false</default>
+                <label>Retail Bakery</label>
+            </value>
+            <value>
+                <fullName>Retail - Regular</fullName>
+                <default>false</default>
+                <label>Retail - Regular</label>
+            </value>
+            <value>
+                <fullName>RV Park</fullName>
+                <default>false</default>
+                <label>RV Park</label>
+            </value>
+            <value>
+                <fullName>RV - Sales / Rentals</fullName>
+                <default>false</default>
+                <label>RV - Sales / Rentals</label>
+            </value>
+            <value>
+                <fullName>Sales &amp; Service of Manufactured Homes</fullName>
+                <default>false</default>
+                <label>Sales &amp; Service of Manufactured Homes</label>
+            </value>
+            <value>
+                <fullName>Sales Financing</fullName>
+                <default>false</default>
+                <label>Sales Financing</label>
+            </value>
+            <value>
+                <fullName>Savings Institutions</fullName>
+                <default>false</default>
+                <label>Savings Institutions</label>
+            </value>
+            <value>
+                <fullName>Scenic and Sightseeing Transportation</fullName>
+                <default>false</default>
+                <label>Scenic and Sightseeing Transportation</label>
+            </value>
+            <value>
+                <fullName>Schools</fullName>
+                <default>false</default>
+                <label>Schools</label>
+            </value>
+            <value>
+                <fullName>Secondary Market Financing</fullName>
+                <default>false</default>
+                <label>Secondary Market Financing</label>
+            </value>
+            <value>
+                <fullName>Securities Dealing/Brokerage</fullName>
+                <default>false</default>
+                <label>Securities Dealing/Brokerage</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Security Guard Services</fullName>
+                <default>false</default>
+                <label>Security Guard Services</label>
+            </value>
+            <value>
+                <fullName>Security Services</fullName>
+                <default>false</default>
+                <label>Security Services</label>
+            </value>
+            <value>
+                <fullName>Security System Sales</fullName>
+                <default>false</default>
+                <label>Security System Sales</label>
+            </value>
+            <value>
+                <fullName>Senior Housing</fullName>
+                <default>false</default>
+                <label>Senior Housing</label>
+            </value>
+            <value>
+                <fullName>Septic/Toilet Repairs&amp;Services</fullName>
+                <default>false</default>
+                <label>Septic/Toilet Repairs&amp;Services</label>
+            </value>
+            <value>
+                <fullName>Service Est. Equipment &amp; Supplies</fullName>
+                <default>false</default>
+                <label>Service Est. Equipment &amp; Supplies</label>
+            </value>
+            <value>
+                <fullName>Smog Check</fullName>
+                <default>false</default>
+                <label>Smog Check</label>
+            </value>
+            <value>
+                <fullName>Smoke Shop - Tobacco</fullName>
+                <default>false</default>
+                <label>Smoke Shop - Tobacco</label>
+            </value>
+            <value>
+                <fullName>Software Development</fullName>
+                <default>false</default>
+                <label>Software Development</label>
+            </value>
+            <value>
+                <fullName>Special Trade Contractor</fullName>
+                <default>false</default>
+                <label>Special Trade Contractor</label>
+            </value>
+            <value>
+                <fullName>Sporting Good Stores</fullName>
+                <default>false</default>
+                <label>Sporting Good Stores</label>
+            </value>
+            <value>
+                <fullName>Sports &amp; Recreation Instruction</fullName>
+                <default>false</default>
+                <label>Sports &amp; Recreation Instruction</label>
+            </value>
+            <value>
+                <fullName>State &amp; Government Agencies</fullName>
+                <default>false</default>
+                <label>State &amp; Government Agencies</label>
+            </value>
+            <value>
+                <fullName>Surveying &amp; Mapping Services</fullName>
+                <default>false</default>
+                <label>Surveying &amp; Mapping Services</label>
+            </value>
+            <value>
+                <fullName>Swimming Pool Contractor</fullName>
+                <default>false</default>
+                <label>Swimming Pool Contractor</label>
+            </value>
+            <value>
+                <fullName>Systems Engineering Consultant</fullName>
+                <default>false</default>
+                <label>Systems Engineering Consultant</label>
+            </value>
+            <value>
+                <fullName>Taxi Cab</fullName>
+                <default>false</default>
+                <label>Taxi Cab</label>
+            </value>
+            <value>
+                <fullName>Tax Prep Services</fullName>
+                <default>false</default>
+                <label>Tax Prep Services</label>
+            </value>
+            <value>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+                <label>Telecommunications</label>
+            </value>
+            <value>
+                <fullName>Telephone Equipment Service &amp; Repair</fullName>
+                <default>false</default>
+                <label>Telephone Equipment Service &amp; Repair</label>
+            </value>
+            <value>
+                <fullName>Theme or Amusement Parks</fullName>
+                <default>false</default>
+                <label>Theme or Amusement Parks</label>
+            </value>
+            <value>
+                <fullName>Ticket Brokers</fullName>
+                <default>false</default>
+                <label>Ticket Brokers</label>
+            </value>
+            <value>
+                <fullName>Time Share Investments</fullName>
+                <default>false</default>
+                <label>Time Share Investments</label>
+            </value>
+            <value>
+                <fullName>Title Insurance Carriers</fullName>
+                <default>false</default>
+                <label>Title Insurance Carriers</label>
+            </value>
+            <value>
+                <fullName>Tour Operators</fullName>
+                <default>false</default>
+                <label>Tour Operators</label>
+            </value>
+            <value>
+                <fullName>Towing</fullName>
+                <default>false</default>
+                <label>Towing</label>
+            </value>
+            <value>
+                <fullName>Translation and Interpretation Services</fullName>
+                <default>false</default>
+                <label>Translation and Interpretation Services</label>
+            </value>
+            <value>
+                <fullName>Transportation (Not Trucking) Taxi, limo</fullName>
+                <default>false</default>
+                <label>Transportation (Not Trucking) Taxi, limo</label>
+            </value>
+            <value>
+                <fullName>Travel Agencies</fullName>
+                <default>false</default>
+                <label>Travel Agencies</label>
+            </value>
+            <value>
+                <fullName>Travel Agents</fullName>
+                <default>false</default>
+                <label>Travel Agents</label>
+            </value>
+            <value>
+                <fullName>Tree Trimming/Removal</fullName>
+                <default>false</default>
+                <label>Tree Trimming/Removal</label>
+            </value>
+            <value>
+                <fullName>Trucking / Transportation</fullName>
+                <default>false</default>
+                <label>Trucking / Transportation</label>
+            </value>
+            <value>
+                <fullName>Trust, Fiduciary &amp; Custody Activities</fullName>
+                <default>false</default>
+                <label>Trust, Fiduciary &amp; Custody Activities</label>
+            </value>
+            <value>
+                <fullName>Unapproved Medical Treatments</fullName>
+                <default>false</default>
+                <label>Unapproved Medical Treatments</label>
+            </value>
+            <value>
+                <fullName>Underground Pipeline Contractor</fullName>
+                <default>false</default>
+                <label>Underground Pipeline Contractor</label>
+            </value>
+            <value>
+                <fullName>Valet Parking</fullName>
+                <default>false</default>
+                <label>Valet Parking</label>
+            </value>
+            <value>
+                <fullName>Video Rental/Sales</fullName>
+                <default>false</default>
+                <label>Video Rental/Sales</label>
+            </value>
+            <value>
+                <fullName>Virtual Auction Houses</fullName>
+                <default>false</default>
+                <label>Virtual Auction Houses</label>
+            </value>
+            <value>
+                <fullName>Vitamin Retailers</fullName>
+                <default>false</default>
+                <label>Vitamin Retailers</label>
+            </value>
+            <value>
+                <fullName>Water &amp; Sewer Contractor</fullName>
+                <default>false</default>
+                <label>Water &amp; Sewer Contractor</label>
+            </value>
+            <value>
+                <fullName>Weapons / Gun Dealer</fullName>
+                <default>false</default>
+                <label>Weapons / Gun Dealer</label>
+            </value>
+            <value>
+                <fullName>Web Design</fullName>
+                <default>false</default>
+                <label>Web Design</label>
+            </value>
+            <value>
+                <fullName>Welding</fullName>
+                <default>false</default>
+                <label>Welding</label>
+            </value>
+            <value>
+                <fullName>Wholesale Beauty Supplies</fullName>
+                <default>false</default>
+                <label>Wholesale Beauty Supplies</label>
+            </value>
+            <value>
+                <fullName>Wholesale Beauty Supply</fullName>
+                <default>false</default>
+                <label>Wholesale Beauty Supply</label>
+            </value>
+            <value>
+                <fullName>Wholesale Health Products</fullName>
+                <default>false</default>
+                <label>Wholesale Health Products</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Window Installation</fullName>
+                <default>false</default>
+                <label>Window Installation</label>
+            </value>
+            <value>
+                <fullName>Windows Repair &amp; or Installation</fullName>
+                <default>false</default>
+                <label>Windows Repair &amp; or Installation</label>
+            </value>
+            <value>
+                <fullName>Wireless Construction</fullName>
+                <default>false</default>
+                <label>Wireless Construction</label>
+            </value>
+            <value>
+                <fullName>Wireless Stores</fullName>
+                <default>false</default>
+                <label>Wireless Stores</label>
+            </value>
+            <value>
+                <fullName>Wireless Wholesale</fullName>
+                <default>false</default>
+                <label>Wireless Wholesale</label>
+            </value>
+            <value>
+                <fullName>Wire Transfers</fullName>
+                <default>false</default>
+                <label>Wire Transfers</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

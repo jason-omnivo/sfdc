@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lenders_with_Early_Payoff_Discounts</fullName>
+    <columns>NAME</columns>
+    <columns>Methods_of_Repayment__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>AJ Equity Group,Business Financial Services,Cash Call [Cap Call],Credibly</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Diesel Funding,Elevate Funding,Fundzio,Greenbox Capital,Idea Financial</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Fox Business Funding,Kash Capital,Knight Capital Funding,Lendistry,Lendr</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>,LG Funding,Lift Forward,Midnight Advance (Atlas),Loan Me,National Funding</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Premier Capital,Principis Capital,Queen Funding,RDM Capital Funding</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Sprout Funding,Strategic Funding Source - Kapitus,Surge Funding</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Thryve Capital,Union Funding Source,Vader Servicing,Velocity</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notEqual</operation>
+        <value>Wide Merchant Group,Yellowstone,Zoomli</value>
+    </filters>
+    <label>Lenders with Early Payoff Discounts</label>
+</ListView>

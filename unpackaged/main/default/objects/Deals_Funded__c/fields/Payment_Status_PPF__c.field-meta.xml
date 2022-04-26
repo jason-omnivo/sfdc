@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Status_PPF__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Status PPF</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paid</fullName>
+                <default>false</default>
+                <label>Paid</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>Waiting on Bank</fullName>
+                <default>false</default>
+                <label>Waiting on Bank</label>
+            </value>
+            <value>
+                <fullName>Waiting on PPF</fullName>
+                <default>false</default>
+                <label>Waiting on PPF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

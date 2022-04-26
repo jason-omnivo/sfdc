@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Industry_Require_SpecificIndustry</fullName>
+    <active>false</active>
+    <description>When the industry is "Other", require that the "Specicifc Industry" field is populated.</description>
+    <errorConditionFormula>AND( TEXT(Industry) == 'Other',  ISBLANK(SIC_Description_Industry__c))</errorConditionFormula>
+    <errorDisplayField>SIC_Description_Industry__c</errorDisplayField>
+    <errorMessage>Please provide the 'Specific industry' if industry  is 'Other'.</errorMessage>
+</ValidationRule>

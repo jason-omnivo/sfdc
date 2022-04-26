@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Hot_Leads</fullName>
+    <columns>Campaign__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.ANNUAL_REVENUE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Call_Count__c</columns>
+    <columns>Last_Call_Date_Time__c</columns>
+    <columns>Time_Zone_New__c</columns>
+    <columns>Date_Lead_Received__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.LAST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Business Owner</value>
+    </filters>
+    <filters>
+        <field>LEAD.DO_NOT_CALL</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Is_Closed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Open - Awaiting App (App Sent)</value>
+    </filters>
+    <filters>
+        <field>Date_Lead_Received__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/1/2019 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Campaign__c</field>
+        <operation>equals</operation>
+        <value>MCA - Leads pro,Avochato,Avochato2</value>
+    </filters>
+    <label>Assigned Hot Leads</label>
+    <sharedTo>
+        <group>Chris_Hendley</group>
+        <group>Elazar_Krieger</group>
+        <group>Gary_B</group>
+        <group>James_Schmoyer</group>
+        <group>Jasmine_Waltz</group>
+        <group>Jeff_Thornton</group>
+        <group>Joe_Graves</group>
+        <group>Kelly_Williams</group>
+        <group>Kimberly_mecklenburg</group>
+        <group>Neil_Byalick</group>
+        <group>Roger_berazate</group>
+        <group>Shenae_Rivers</group>
+    </sharedTo>
+</ListView>

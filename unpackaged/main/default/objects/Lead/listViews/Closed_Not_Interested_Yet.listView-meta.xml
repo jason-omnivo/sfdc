@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Not_Interested_Yet</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Call_Count__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.LAST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Business Owner</value>
+    </filters>
+    <filters>
+        <field>LEAD.DO_NOT_CALL</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Is_Closed__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed - Not Interested Yet</value>
+    </filters>
+    <label>Closed - Not Interested Yet</label>
+    <sharedTo>
+        <group>Chris_Hendley</group>
+        <group>Elazar_Krieger</group>
+        <group>Gary_B</group>
+        <group>James_Schmoyer</group>
+        <group>Jasmine_Waltz</group>
+        <group>Kelly_Williams</group>
+        <group>Kimberly_mecklenburg</group>
+        <group>Neil_Byalick</group>
+        <group>Ryan_O_Sullivan</group>
+        <group>Shenae_Rivers</group>
+    </sharedTo>
+</ListView>

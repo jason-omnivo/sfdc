@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AIS_Active_Dave</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Max_Approval__c</columns>
+    <columns>Annual_Revenue_Trend__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Days_in_the_pipeline__c</columns>
+    <columns>Email_Opp__c</columns>
+    <columns>Primary_Campaign_Custom__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>dfine,Bcage</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Funded,Closed Lost,Declined,Renewal Eligible,Default</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Fraud,Out of Business,Sold Business,Covid 19 - Declined</value>
+    </filters>
+    <label>AIS - Active - Dave</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Dave_Fine</group>
+        <group>Joseph_Green</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Joe_Green_PipelineJoeMCAEL_Revive</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Days_in_the_pipeline__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Primary_Campaign_Custom__c</columns>
+    <columns>Max_Approval__c</columns>
+    <columns>Annual_Revenue_Trend__c</columns>
+    <columns>Opener_Name__c</columns>
+    <columns>Closer_Name__c</columns>
+    <columns>Phone__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Funding__c</columns>
+    <columns>Cell_Phone__c</columns>
+    <columns>Email_Opp__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>Opener_Name__c</field>
+        <operation>notContain</operation>
+        <value>Gene</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>jgreen</value>
+    </filters>
+    <filters>
+        <field>Funding__c</field>
+        <operation>notEqual</operation>
+        <value>Commercial Real Estate Loan,Long Term Funding Loan</value>
+    </filters>
+    <filters>
+        <field>Closer_Name__c</field>
+        <operation>notEqual</operation>
+        <value>Mike Mcvery</value>
+    </filters>
+    <label>Joe Green Pipeline Joe - Revive</label>
+    <sharedTo>
+        <group>Aiden_Ivory</group>
+        <group>Jesse_Anatian</group>
+        <group>Joseph_Green</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Month_Converted__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  Month__c  , 
+"January", 1,
+"February", 2,
+"March", 3,
+"April", 4,
+"May", 5,
+"June", 6,
+"July", 7,
+"August", 8,
+"September",9,
+"October", 10,
+"November", 11,
+"December", 12,
+null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Month (Converted)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
